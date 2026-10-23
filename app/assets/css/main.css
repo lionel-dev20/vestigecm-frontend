@@ -1,1 +1,43 @@
 @import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+
+  /* Couleurs de l'en-tête */
+  --color-ink: #0d3b3c;
+  --color-accent: #e5452f;
+  --color-field: #eef0ee;
+  --color-cta: #3d7d00;
+  --color-panel: #f5f5f5;
+
+  /* Section promesse qualité */
+  --color-mint: #dfe9dc;
+  --color-leaf: #1d5e2f;
+  --color-frame: #f4f1ec;
+
+  /* Cartes produit */
+  --color-sale: #d0021b;
+  --color-star: #f5a623;
+  --color-link: #1a5fb4;
+
+  /* Section santé */
+  --color-navy: #0b3f8c;
+  --color-sky: #eef4fb;
+
+  /* Catégories et cartes promo */
+  --color-gold: #c39a4f;
+  --color-forest: #1f4d2b;
+  --color-cream: #f3efe8;
+}
+
+/* Largeur d'un élément de carrousel : --cols éléments visibles, séparés par --gap */
+@utility carousel-item {
+  width: calc((100% - (var(--cols) - 1) * var(--gap)) / var(--cols));
+}
+
+/* Défilement horizontal sans barre visible */
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
