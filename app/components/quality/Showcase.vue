@@ -22,7 +22,7 @@ watch(inView, () => execute(), { once: true })
           La médecine naturelle indienne (Ayurvéda) est désormais chez vous, grâce à la thérapie nutritionnelle cellulaire.
         </p>
       </div>
-
+Ok 
       <div ref="grid" class="min-w-0 flex-1">
         <QualityCardGrid :items="data" :loading="status !== 'success'" />
       </div>

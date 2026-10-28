@@ -3,8 +3,8 @@ defineProps<{ links: NavLink[] }>()
 
 const route = useRoute()
 
-// La racine n'est active que sur elle-même, les autres sur leurs sous-pages
-const isActive = (to: string) => (to === '/' ? route.path === '/' : route.path.startsWith(to))
+// Actif sur l'univers, ses sous-catégories, et par défaut sur l'accueil
+const isActive = (to: string) => activeSection(route.path)?.to === to
 </script>
 
 <template>

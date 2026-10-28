@@ -54,6 +54,8 @@ useHead(() => {
     image="/images/promos/semaine.jpg"
   />
 
+  <AboutSection />
+
   <!--
     Sections suivantes : chargées au scroll.
     <BaseLazySection>

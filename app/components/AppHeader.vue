@@ -4,6 +4,9 @@ const route = useRoute()
 
 // Ferme le menu mobile après chaque navigation
 watch(() => route.fullPath, () => (menuOpen.value = false))
+
+// Barre sous l'en-tête : sous-catégories de l'univers actif (le premier hors catalogue)
+const categories = computed(() => (activeSection(route.path) ?? sectionTabs[0])?.children ?? [])
 </script>
 
 <template>
@@ -34,8 +37,8 @@ watch(() => route.fullPath, () => (menuOpen.value = false))
     </div>
 
     <!-- Défile avec la page -->
-    <HeaderCategoryNav :links="categoryLinks" class="hidden bg-white md:block" />
+    <HeaderCategoryNav :links="categories" class="hidden bg-white md:block" />
 
-    <HeaderMobileMenu v-model:open="menuOpen" :tabs="sectionTabs" :categories="categoryLinks" />
+    <HeaderMobileMenu v-model:open="menuOpen" :tabs="sectionTabs" :categories="categories" />
   </header>
 </template>

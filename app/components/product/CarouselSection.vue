@@ -24,7 +24,8 @@ const id = useId()
 
 <template>
   <!-- Section pleine largeur : le fond se passe via class depuis le parent -->
-  <section ref="section" :aria-labelledby="id">
+  <!-- Masquée si la source ne renvoie aucun produit (ex. catégorie vide dans WooCommerce) -->
+  <section v-if="loading || props.products.length" ref="section" :aria-labelledby="id">
     <div class="mx-auto max-w-350 px-4 py-10 lg:px-8">
       <div class="mb-6 flex items-baseline gap-5">
         <h2 :id="id" class="text-2xl font-bold text-[#333]">{{ title }}</h2>
