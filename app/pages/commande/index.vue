@@ -76,7 +76,7 @@ async function submit() {
 const whatsappOrder = computed(() => {
   const lines = items.value.map(item => `• ${item.quantity} × ${item.name}`).join('\n')
   const text = `Bonjour, je souhaite commander :\n${lines}\nTotal : ${formatPrice(subtotal.value)}`
-  return `https://wa.me/237676653634?text=${encodeURIComponent(text)}`
+  return `https://wa.me/237699288607?text=${encodeURIComponent(text)}`
 })
 </script>
 

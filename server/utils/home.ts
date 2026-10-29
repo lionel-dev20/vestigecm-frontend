@@ -13,7 +13,7 @@ const defaults: HomeContent = {
     { title: 'Kit des maladies', subtitle: 'Des produits naturels pour accompagner les maladies chroniques', to: '/c/kit-maladies', image: '/images/hero/promo-1.jpg', bg: '#2f5f9e', tone: 'light' },
     { title: 'Notre promesse qualité', subtitle: 'Des produits authentiques, des standards de confiance', to: '/c/sante', image: '/images/hero/promo-2.jpg', bg: '#f2f2f0' },
   ],
-  whatsapp: { title: 'Besoin d\'un conseil personnalisé ?', label: 'Rejoindre sur WhatsApp', to: 'https://wa.me/237676653634' },
+  whatsapp: { title: 'Besoin d\'un conseil personnalisé ?', label: 'Rejoindre sur WhatsApp', to: 'https://wa.me/237699288607' },
   quality: {
     title: 'Notre promesse qualité',
     text: 'La médecine naturelle indienne (Ayurvéda) est désormais chez vous, grâce à la thérapie nutritionnelle cellulaire.',
@@ -86,7 +86,7 @@ const defaults: HomeContent = {
 <p>Parce que chaque personne est différente, nous ne voulons pas simplement vous proposer une solution au hasard. Nous privilégions une démarche qui commence par l'écoute et l'évaluation, puis qui permet d'orienter l'accompagnement en fonction des besoins identifiés.</p>
 <p><strong>Prenez soin de votre santé. Commencez par mieux comprendre votre organisme.</strong></p>`,
     address: 'VESTIGE CAMEROUN – DOUALA LOGBABA · Logbaba 2 Poteaux',
-    whatsapp: '676 653 634',
+    whatsapp: '699 288 607',
   },
 }
 

@@ -31,7 +31,7 @@ const steps = [
 
     <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
       <NuxtLink to="/" class="rounded-full bg-ink px-6 py-3 font-bold text-white hover:bg-ink/90">Continuer mes achats</NuxtLink>
-      <NuxtLink to="https://wa.me/237676653634" target="_blank" class="flex items-center justify-center gap-2 rounded-full border border-ink/20 px-6 py-3 font-semibold text-ink hover:bg-panel">
+      <NuxtLink to="https://wa.me/237699288607" target="_blank" class="flex items-center justify-center gap-2 rounded-full border border-ink/20 px-6 py-3 font-semibold text-ink hover:bg-panel">
         <UIcon name="i-simple-icons-whatsapp" class="size-5" />
         Une question ?
       </NuxtLink>
