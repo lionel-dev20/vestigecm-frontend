@@ -49,7 +49,7 @@ useSeoMeta({ title: 'Mon panier', robots: 'noindex, follow' })
       title="Vous aimerez aussi"
       to="/c/all-offers"
       :products="suggestions"
-      :loading="status !== 'success'"
+      :loading="status === 'idle' || status === 'pending'"
       @visible="execute()"
     />
   </div>

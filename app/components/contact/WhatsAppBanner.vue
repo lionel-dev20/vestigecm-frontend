@@ -1,10 +1,11 @@
 <script setup lang="ts">
-withDefaults(defineProps<{ title?: string; label?: string }>(), {
+const props = withDefaults(defineProps<{ title?: string; label?: string; to?: string }>(), {
   title: 'Besoin d\'un conseil personnalisé ?',
   label: 'Rejoindre sur WhatsApp',
 })
 
-const { whatsappUrl } = useRuntimeConfig().public
+// Lien géré dans WordPress (ACF) ; à défaut, NUXT_PUBLIC_WHATSAPP_URL
+const whatsappUrl = computed(() => props.to || useRuntimeConfig().public.whatsappUrl)
 </script>
 
 <template>

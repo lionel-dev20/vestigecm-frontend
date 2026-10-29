@@ -37,9 +37,8 @@ const open = () => { preview.value = { ...props } }
     <div class="px-1 pt-3">
       <!-- Mobile : 2 lignes · Tablette et plus : 3 lignes -->
       <h3 class="line-clamp-2 min-h-12 leading-6 sm:line-clamp-3 sm:min-h-18 text-[#333] group-hover:underline">{{ name }}</h3>
-      <!-- Pas d'avis réels : pas d'étoiles (espace réservé pour aligner les prix) -->
-      <ProductRating v-if="reviews" :value="rating" :count="reviews" class="mt-1.5" />
-      <div v-else class="mt-1.5 h-[18px]" aria-hidden="true" />
+      <!-- Sans avis : étoiles grises -->
+      <ProductRating :value="rating" :count="reviews" class="mt-1.5" />
       <ProductPrice :price="price" :old-price="oldPrice" class="mt-1" />
     </div>
   </NuxtLink>

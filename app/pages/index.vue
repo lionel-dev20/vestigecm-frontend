@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const { data: promos, status } = usePromos()
+// Tout le contenu de l'accueil vient de WordPress (ACF, page « Accueil ») ;
+// les produits et catégories viennent de WooCommerce, chargés au scroll
+const { data: home } = await useHome()
 
 useSeoMeta({
   title: 'Accueil',
@@ -9,7 +11,7 @@ useSeoMeta({
 // Image principale = LCP : chargée en priorité, même URL optimisée que la carte
 const img = useImage()
 useHead(() => {
-  const featured = promos.value[0]
+  const featured = home.value?.hero[0]
   if (!featured) return {}
   const href = img(featured.image, { width: heroImageWidth(true), format: 'webp' })
   return { link: [{ rel: 'preload', as: 'image', href, fetchpriority: 'high' }] }
@@ -17,50 +19,30 @@ useHead(() => {
 </script>
 
 <template>
-  <!-- Au-dessus de la ligne de flottaison : rendu serveur, pas de lazy au scroll -->
-  <HeroPromoGrid :promos="promos" :loading="status === 'pending'" />
+  <template v-if="home">
+    <!-- Au-dessus de la ligne de flottaison : rendu serveur -->
+    <HeroPromoGrid :promos="home.hero" />
 
-  <ContactWhatsAppBanner />
+    <ContactWhatsAppBanner :title="home.whatsapp.title" :label="home.whatsapp.label" :to="home.whatsapp.to" />
 
-  <QualityShowcase />
+    <QualityShowcase v-bind="home.quality" />
 
-  <DealsSection />
+    <DealsSection v-bind="home.deals" />
 
-  <HealthSection />
+    <HealthSection v-bind="home.health" />
 
-  <PromoBanner
-    title="Ayurvéda"
-    subtitle="Notre nouvelle gamme de soins naturels"
-    cta="Découvrir"
-    to="/c/ayurveda"
-    image="/images/banners/ayurveda.jpg"
-  />
+    <PromoBanner v-bind="home.banner" />
 
-  <HealthPicks />
+    <HealthPicks v-bind="home.healthPicks" />
 
-  <CategorySection />
+    <CategorySection v-bind="home.categories" />
 
-  <AgriPicks />
+    <AgriPicks v-bind="home.agriPicks" />
 
-  <PromoDealCards />
+    <PromoDealCards :cards="home.dealCards" />
 
-  <PromoCta
-    eyebrow="Offres de la semaine"
-    title="Économies exceptionnelles : vos essentiels bien-être de la semaine"
-    highlight="vos essentiels bien-être de la semaine"
-    text="Chaque semaine, une sélection de produits naturels à prix réduit."
-    cta="Acheter"
-    to="/c/all-offers"
-    image="/images/promos/semaine.jpg"
-  />
+    <PromoCta v-bind="home.cta" />
 
-  <AboutSection />
-
-  <!--
-    Sections suivantes : chargées au scroll.
-    <BaseLazySection>
-      <LazyHomeBestSellers />
-      <template #fallback><HomeBestSellersSkeleton /></template>
-    </BaseLazySection>
-  -->
+    <AboutSection v-bind="home.about" />
+  </template>
 </template>

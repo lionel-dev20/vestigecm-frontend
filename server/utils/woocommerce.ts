@@ -1,4 +1,5 @@
 import type { Product, ProductDetail } from '#shared/types/product'
+import type { Review, ReviewForm } from '#shared/utils/review'
 
 // Champs WooCommerce utilisés par le site (l'API en renvoie beaucoup plus)
 export interface WooProduct {
@@ -130,10 +131,12 @@ function toParagraphs(html: string) {
     .filter(Boolean)
 }
 
-// Fiche WooCommerce gardée 1 min : la fiche et ses produits liés partagent la même requête
+// Fiche WooCommerce gardée 30 s : la fiche, ses produits liés et ses avis partagent la même requête
 export const wooProductDetail = defineCachedFunction(fetchWooProductDetail, {
   name: 'woo-product',
-  maxAge: 60,
+  maxAge: 30,
+  // Expirée = redemandée tout de suite (le swr s'additionnerait au cache de la route)
+  swr: false,
   getKey: (slug: string) => slug,
 })
 
@@ -170,4 +173,46 @@ export async function wooProductsByIds(ids: number[]) {
     query: { include: ids.join(','), status: 'publish', per_page: ids.length, _fields: wooProductFields },
   })
   return products.map(toProduct)
+}
+
+interface WooReview {
+  id: number
+  date_created: string
+  reviewer: string
+  review: string
+  rating: number
+  verified: boolean
+}
+
+// Avis approuvés d'un produit, les plus récents d'abord
+export async function wooProductReviews(productId: number): Promise<Review[]> {
+  const reviews = await wooFetch<WooReview[]>('/products/reviews', {
+    query: { product: productId, status: 'approved', per_page: 20, _fields: 'id,date_created,reviewer,review,rating,verified' },
+  })
+  return reviews.map(review => ({
+    id: review.id,
+    // Balises retirées du nom : affiché comme texte, jamais comme HTML
+    name: decodeEntities(review.reviewer).replace(/<[^>]*>/g, '').trim(),
+    rating: review.rating,
+    comment: toParagraphs(review.review).join('\n'),
+    date: review.date_created,
+    verified: review.verified,
+  }))
+}
+
+// Nouvel avis : toujours « en attente », publié seulement après validation dans l'admin
+export function wooCreateReview(productId: number, form: ReviewForm) {
+  const { woocommerce } = useRuntimeConfig()
+  return wooFetch('/products/reviews', {
+    method: 'POST',
+    body: {
+      product_id: productId,
+      reviewer: form.name.trim(),
+      // WooCommerce exige un e-mail : adresse technique si le client n'en donne pas
+      reviewer_email: form.email.trim() || `avis-sans-email@${new URL(woocommerce.url).hostname}`,
+      review: form.comment.trim(),
+      rating: form.rating,
+      status: 'hold',
+    },
+  })
 }

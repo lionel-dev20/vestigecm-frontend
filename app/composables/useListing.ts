@@ -5,8 +5,9 @@ export function useListing(source: { category?: MaybeRefOrGetter<string>; q?: Ma
   const route = useRoute()
   const query = computed(() => ({ ...route.query, category: toValue(source.category), q: toValue(source.q) }))
 
+  // Lazy : la page s'ouvre tout de suite avec un spinner (rendu serveur complet au premier chargement)
   // Clé fixe par catégorie / recherche : les anciens résultats restent affichés pendant le rechargement
-  return useFetch<ListingResult>('/api/listing', {
+  return useLazyFetch<ListingResult>('/api/listing', {
     query,
     key: () => `listing-${toValue(source.category) ?? ''}-${toValue(source.q) ?? ''}`,
   })

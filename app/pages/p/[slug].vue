@@ -87,11 +87,13 @@ useHead(() => ({
         <ProductGallery :images="product.images" :alt="product.name" :style="galleryStyle" class="lg:col-start-1" />
 
         <!-- top-28 : sous la barre du header, elle aussi collée -->
-        <aside ref="aside" class="lg:sticky lg:top-28 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:self-start">
+        <aside ref="aside" class="lg:sticky lg:top-28 lg:col-start-2 lg:row-span-3 lg:row-start-1 lg:self-start">
           <ProductBuyBox v-model:quantity="quantity" :product="product" :loading="loading" @buy="buy" />
         </aside>
 
         <ProductDetails v-if="product.details.length" :sections="product.details" class="lg:col-start-1" />
+
+        <ProductReviews :slug="slug" :rating="product.rating" :count="product.reviews" class="lg:col-start-1" />
       </div>
     </div>
 
@@ -99,7 +101,7 @@ useHead(() => ({
       title="Vous aimerez aussi"
       :to="product.category.to"
       :products="related.data.value"
-      :loading="related.status.value !== 'success'"
+      :loading="related.status.value === 'idle' || related.status.value === 'pending'"
       @visible="related.execute()"
     />
 

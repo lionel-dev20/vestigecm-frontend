@@ -1,3 +1,5 @@
+import type { Branding } from '#shared/types/branding'
+
 // Lien de menu renvoyé au site (même forme que NavLink côté app)
 export interface MenuLink {
   label: string
@@ -52,4 +54,23 @@ export function decodeEntities(text: string) {
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
     .replace(/&amp;/g, '&')
     .replace(/&quot;/g, '"')
+}
+
+// Logo et favicon depuis WordPress, gardés 1 h (une erreur n'est jamais mise en cache)
+const fetchBranding = defineCachedFunction(async () => {
+  const { wordpress } = useRuntimeConfig()
+  return $fetch<Branding>('/wp-json/vestige/v1/branding', { baseURL: wordpress.url })
+}, { name: 'wp-branding', maxAge: 60 * 60 })
+
+// Si WordPress ne répond pas, le site garde son logo texte
+export async function getBranding(): Promise<Branding> {
+  const fallback: Branding = { name: 'Vestige', description: '', logo: null, favicon: null }
+  if (!useRuntimeConfig().wordpress.url) return fallback
+  try {
+    return await fetchBranding()
+  }
+  catch (error) {
+    console.error('[Contenu] logo et favicon indisponibles', (error as Error).message)
+    return fallback
+  }
 }

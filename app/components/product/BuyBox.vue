@@ -14,7 +14,11 @@ const emit = defineEmits<{ buy: [] }>()
       <h1 class="mt-1 text-2xl font-bold leading-tight text-[#222] lg:text-3xl">{{ product.name }}</h1>
       <!-- Prix unique, juste sous le nom -->
       <ProductPrice :price="product.price" :old-price="product.oldPrice" size="lg" class="mt-3" />
-      <ProductRating v-if="product.reviews" :value="product.rating" :count="product.reviews" class="mt-2" />
+      <!-- Lien vers la section avis : les lire, ou être le premier à en donner un -->
+      <a href="#avis" class="mt-2 inline-flex items-center gap-2 hover:underline">
+        <ProductRating :value="product.rating" :count="product.reviews" />
+        <span class="text-sm text-link">{{ product.reviews ? 'Voir les avis' : 'Donner le premier avis' }}</span>
+      </a>
     </div>
 
     <div v-if="loading" class="space-y-2" aria-hidden="true">

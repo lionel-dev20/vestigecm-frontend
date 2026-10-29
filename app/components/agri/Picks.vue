@@ -1,14 +1,16 @@
 <script setup lang="ts">
+// Titre et lien « Tout voir » gérés dans WordPress (ACF) ; produits depuis WooCommerce
+defineProps<{ title: string; to: string }>()
 const { data, status, execute } = useAgriProducts()
 </script>
 
 <template>
   <!-- Même section que les bons plans, sans défilement automatique -->
   <ProductCarouselSection
-    title="Agriculture"
-    to="/c/agriculture"
+    :title="title"
+    :to="to"
     :products="data"
-    :loading="status !== 'success'"
+    :loading="status === 'idle' || status === 'pending'"
     @visible="execute()"
   />
 </template>

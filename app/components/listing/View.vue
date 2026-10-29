@@ -43,19 +43,25 @@ const hasFilters = computed(() => countActiveFilters(parseListingFilters(route.q
         <ListingToolbar :page="result.page" :total="result.total" :count="result.products.length" @filter="filtersOpen = true" />
         <ListingActiveFilters class="mt-4" />
 
-        <!-- Pendant le rechargement, les résultats précédents restent visibles, atténués -->
-        <ul
-          v-if="result.products.length"
-          class="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 transition-opacity duration-150 sm:grid-cols-3 xl:grid-cols-4"
-          :class="pending && 'opacity-50'"
-          :aria-busy="pending"
-        >
-          <li v-for="product in result.products" :key="product.id">
-            <ProductCard v-bind="product" />
-          </li>
-        </ul>
+        <!-- Pendant un changement de filtre, de tri ou de page : résultats précédents atténués + spinner -->
+        <div class="relative mt-6" :aria-busy="pending">
+          <ul
+            v-if="result.products.length"
+            class="grid grid-cols-2 gap-x-4 gap-y-8 transition-opacity duration-150 sm:grid-cols-3 xl:grid-cols-4"
+            :class="pending && 'opacity-40'"
+          >
+            <li v-for="product in result.products" :key="product.id">
+              <ProductCard v-bind="product" />
+            </li>
+          </ul>
 
-        <div v-else class="mt-8 rounded-2xl bg-panel p-8 text-center">
+          <!-- Spinner collé au milieu de l'écran, même sur une longue grille -->
+          <div v-if="pending" class="absolute inset-0 z-10 flex justify-center">
+            <BaseSpinner class="sticky top-[45vh] h-fit" />
+          </div>
+        </div>
+
+        <div v-if="!result.products.length && !pending" class="mt-2 rounded-2xl bg-panel p-8 text-center">
           <UIcon name="i-lucide-search-x" class="size-12 text-[#bbb]" />
           <p class="mt-3 text-lg font-semibold text-[#222]">Aucun produit ne correspond</p>
           <p class="mt-1 text-[#666]">
