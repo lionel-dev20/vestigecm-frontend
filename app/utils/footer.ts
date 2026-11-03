@@ -56,7 +56,7 @@ export const footerColumns: FooterColumn[] = [
 // Réseaux sociaux : remplacer les URL par les pages officielles
 export const socialLinks: NavLink[] = [
   { label: 'Instagram', to: 'https://www.instagram.com/', icon: 'i-simple-icons-instagram' },
-  { label: 'Facebook', to: 'https://www.facebook.com/', icon: 'i-simple-icons-facebook' },
+  { label: 'Facebook', to: contact.facebookUrl, icon: 'i-simple-icons-facebook' },
   { label: 'TikTok', to: 'https://www.tiktok.com/', icon: 'i-simple-icons-tiktok' },
   { label: 'YouTube', to: 'https://www.youtube.com/', icon: 'i-simple-icons-youtube' },
 ]

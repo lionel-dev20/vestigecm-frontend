@@ -47,8 +47,8 @@ export default defineNuxtConfig({
     },
 
     public: {
-      // Lien d'invitation du groupe (NUXT_PUBLIC_WHATSAPP_URL)
-      whatsappUrl: 'https://chat.whatsapp.com/JcY2hwiD0db75RmNldsmR0',
+      // Conversation WhatsApp de la boutique (NUXT_PUBLIC_WHATSAPP_URL)
+      whatsappUrl: 'https://wa.me/237699288607',
     },
   },
 

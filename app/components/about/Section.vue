@@ -45,6 +45,12 @@ function toggle() {
             {{ addressLines[0] }}
           </p>
           <p v-for="line in addressLines.slice(1)" :key="line" class="pl-7">{{ line }}</p>
+          <p class="pl-7">
+            <NuxtLink :to="contact.mapUrl" target="_blank" class="inline-flex items-center gap-1 font-semibold text-leaf hover:underline">
+              Voir sur Google Maps
+              <UIcon name="i-lucide-external-link" class="size-4" />
+            </NuxtLink>
+          </p>
           <p v-if="whatsapp" class="flex items-center gap-2">
             <UIcon name="i-simple-icons-whatsapp" class="size-5 text-leaf" />
             <NuxtLink :to="whatsappLink" target="_blank" class="font-semibold text-leaf hover:underline">

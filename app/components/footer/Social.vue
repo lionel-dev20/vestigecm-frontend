@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { whatsappUrl } = useRuntimeConfig().public
 
-// WhatsApp : même lien de groupe que la bannière de contact
+// WhatsApp : même lien que la bannière de contact
 const links = computed(() => [
   ...socialLinks,
   { label: 'WhatsApp', to: whatsappUrl, icon: 'i-simple-icons-whatsapp' },

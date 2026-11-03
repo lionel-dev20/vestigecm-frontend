@@ -24,6 +24,11 @@ const year = new Date().getFullYear()
 
       <div class="space-y-5">
         <FooterSocial />
+        <!-- Adresse de la boutique : ouvre l'itinéraire dans Google Maps -->
+        <NuxtLink :to="contact.mapUrl" target="_blank" class="flex items-start gap-2 text-white/90 hover:text-white hover:underline">
+          <UIcon name="i-lucide-map-pin" class="mt-0.5 size-5 shrink-0" />
+          <span>{{ contact.place }}, Douala</span>
+        </NuxtLink>
         <p class="text-sm text-white/80">© {{ year }} VESTIGE. Tous droits réservés.</p>
       </div>
     </div>
