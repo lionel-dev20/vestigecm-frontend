@@ -5,6 +5,9 @@ export interface Testimonial {
   topic: string
   to: string
   video: string
+  // Image extraite de la vidéo (public/images/temoignages/posters) et durée en secondes
+  poster: string
+  duration: number
 }
 
 const cdn = 'https://d1yei2z3i6k35z.cloudfront.net/3181935/'
@@ -39,8 +42,77 @@ const groups: [topic: string, to: string, files: string[]][] = [
   ['Crème hydratante', '/p/vestige-creme-hydratante-quotidienne', ['658766d0ad57b_Projet_12-2333_SD360p_MEDIUM_FR30.mp4']],
 ]
 
+// Durées relevées sur les fichiers vidéo
+const durations: Record<string, number> = {
+  '658728ef0763d': 443,
+  '65872a0f64236': 91,
+  '65872a78ac7bd': 137,
+  '65872df5bb021': 156,
+  '65874af9dac8a': 159,
+  '65874b6376e25': 150,
+  '65874bdef11c7': 216,
+  '65874e34d821a': 67,
+  '65874e9c6616a': 315,
+  '65874f33248e3': 66,
+  '6587500b26e4e': 230,
+  '658750a5a93f8': 137,
+  '658750f778bf5': 114,
+  '658751689a9f8': 96,
+  '658751ba55b78': 180,
+  '65875232282a0': 101,
+  '65875379cab6b': 28,
+  '658753ab46012': 226,
+  '6587542d32093': 161,
+  '658754b41a1a6': 70,
+  '658754f217e95': 171,
+  '6587554921227': 75,
+  '658755770edfa': 146,
+  '658758bf197bd': 99,
+  '6587590f37074': 143,
+  '65875955055d9': 121,
+  '658759b431efa': 19,
+  '65875a300522c': 75,
+  '65875a9a30b8b': 54,
+  '65875acd7e814': 146,
+  '65875b1ae9418': 25,
+  '65875b489bac9': 108,
+  '65875bb6b74ad': 233,
+  '65875cb0da420': 57,
+  '65875cf7d5d79': 1428,
+  '65876006edef4': 105,
+  '6587605b1d66b': 334,
+  '658765ac63712': 471,
+  '658766d0ad57b': 247,
+  '66757a78b019a': 64,
+  '66757c93c559f': 57,
+  '66814693c7b1e': 85,
+  '668146faef74d': 182,
+  '6681475901e53': 217,
+  '668148e99c487': 161,
+  '66814a806dcf5': 125,
+  '66814ae19285d': 211,
+  '66814b73f32c9': 75,
+  '66814cc7bb569': 169,
+  '6746614d77e93': 106,
+  '6746627400bf1': 105,
+  '67466416aaca2': 135,
+  '674664c4a011f': 309,
+  '674666438f0aa': 307,
+  '67e0163d90518': 158,
+  '67e0176ba0fd6': 132,
+  '67e01a335762e': 231,
+  '67e02f27e0574': 217,
+  '67e063a544217': 249,
+  '67e06abed6d80': 161,
+  '67e06d4945ca3': 13,
+  '67e06ef55d486': 232,
+}
+
 export const testimonials: Testimonial[] = groups.flatMap(([topic, to, files]) =>
-  files.map(file => ({ id: file.slice(0, 13), topic, to, video: cdn + file })),
+  files.map((file) => {
+    const id = file.slice(0, 13)
+    return { id, topic, to, video: cdn + file, poster: `/images/temoignages/posters/${id}.jpg`, duration: durations[id] ?? 0 }
+  }),
 )
 
 // Sujets dans l'ordre de la page, pour les filtres
