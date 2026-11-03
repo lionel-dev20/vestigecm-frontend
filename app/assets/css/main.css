@@ -41,3 +41,13 @@
   scrollbar-width: none;
   &::-webkit-scrollbar { display: none; }
 }
+
+/* Panier : il glisse depuis la droite à l'arrivée et s'efface au départ (les autres pages changent sans animation) */
+.cart-leave-active { transition: opacity 120ms ease-in; }
+.cart-leave-to { opacity: 0; }
+.cart-enter-active { transition: opacity 260ms ease-out, transform 260ms ease-out; }
+.cart-enter-from { opacity: 0; transform: translateX(32px); }
+
+@media (prefers-reduced-motion: reduce) {
+  .cart-enter-active, .cart-leave-active { transition: none; }
+}

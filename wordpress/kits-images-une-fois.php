@@ -13,7 +13,7 @@ if (!defined('ABSPATH')) {
 }
 
 add_action('admin_init', function () {
-    if (!current_user_can('manage_woocommerce') || get_transient('vestige_kits_images_done')) {
+    if (!current_user_can('manage_woocommerce') || get_transient('vestige_kits_images_v2')) {
         return;
     }
 
@@ -36,7 +36,7 @@ add_action('admin_init', function () {
         $images[$name] = $images[$name] ?? $id;
     }
 
-    // Kits sans image : même nom que leur slug (kit-diabete-type-1-et-2 → kit-diabete-type-1-et-2.jpg)
+    // Kits sans image valide : même nom que leur slug (kit-diabete-type-1-et-2 → kit-diabete-type-1-et-2.jpg)
     $kits = get_posts([
         'post_type'      => 'product',
         'posts_per_page' => -1,
@@ -45,7 +45,8 @@ add_action('admin_init', function () {
     $linked = 0;
     $missing = [];
     foreach ($kits as $kit) {
-        if (has_post_thumbnail($kit)) {
+        // Image valide déjà en place : on n'y touche pas (l'import XML a laissé des références vers des images inexistantes)
+        if (wp_get_attachment_image_src((int) get_post_thumbnail_id($kit))) {
             continue;
         }
         if (isset($images[$kit->post_name])) {
@@ -57,11 +58,11 @@ add_action('admin_init', function () {
         }
     }
 
-    set_transient('vestige_kits_images_done', compact('linked', 'missing'), DAY_IN_SECONDS);
+    set_transient('vestige_kits_images_v2', compact('linked', 'missing'), DAY_IN_SECONDS);
 });
 
 add_action('admin_notices', function () {
-    $result = get_transient('vestige_kits_images_done');
+    $result = get_transient('vestige_kits_images_v2');
     if (!$result) {
         return;
     }

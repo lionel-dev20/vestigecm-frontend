@@ -26,11 +26,16 @@ const quantity = ref(1)
 const { add } = useCart()
 const toast = useToast()
 
-function buy() {
+// Ajout au panier puis ouverture directe du panier (transition « cart » définie sur la page panier)
+async function buy() {
   if (!product.value) return
   add(product.value, quantity.value)
   toast.add({ title: 'Ajouté au panier', description: `${quantity.value} × ${product.value.name}`, icon: 'i-lucide-check', color: 'success' })
+  await navigateTo('/panier')
 }
+
+// Code de la page panier chargé à l'avance : la redirection est instantanée
+onMounted(() => preloadRouteComponents('/panier'))
 
 // Galerie : hauteur de la colonne d'achat + 6rem (bureau)
 const aside = useTemplateRef<HTMLElement>('aside')

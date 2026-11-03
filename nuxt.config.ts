@@ -54,5 +54,7 @@ export default defineNuxtConfig({
 
   app: {
     head: { htmlAttrs: { lang: 'fr' } },
+    // Transition neutre (aucun style « page-* ») : nécessaire pour que celle du panier (definePageMeta) s'applique
+    pageTransition: { name: 'page' },
   },
 })

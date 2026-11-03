@@ -1,4 +1,7 @@
 <script setup lang="ts">
+// Arrivée sur le panier : la page glisse depuis la droite (styles « cart-* » dans main.css)
+definePageMeta({ pageTransition: { name: 'cart', mode: 'out-in' } })
+
 const { items, count } = useCart()
 
 // Suggestions : chargées à l'approche du scroll
