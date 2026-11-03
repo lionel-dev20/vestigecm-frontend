@@ -19,8 +19,8 @@ export const footerColumns: FooterColumn[] = [
   {
     title: 'Boutique',
     links: [
-      { label: 'Beauté et santé', to: '/' },
-      { label: 'Kit des maladies', to: '/c/kit-maladies' },
+      { label: 'Santé et beauté', to: '/c/sante' },
+      { label: 'Kits traitement', to: '/c/kits-traitement' },
       { label: 'Agriculture', to: '/c/agriculture' },
       { label: 'Compléments', to: '/c/complements' },
       { label: 'Soins de la peau', to: '/c/soins-peau' },
@@ -28,14 +28,14 @@ export const footerColumns: FooterColumn[] = [
     ],
   },
   {
-    title: 'Kits santé',
+    title: 'Kits traitement',
     links: [
-      { label: 'Diabète', to: '/c/kit-maladies/diabete' },
-      { label: 'Hypertension & hypotension', to: '/c/kit-maladies/tension' },
-      { label: 'AVC & mémoire', to: '/c/kit-maladies/avc-memoire' },
-      { label: 'Arthrose & rhumatismes', to: '/c/kit-maladies/arthrose' },
-      { label: 'Prostate & fertilité', to: '/c/kit-maladies/prostate-fertilite' },
-      { label: 'Ménopause', to: '/c/kit-maladies/menopause-chroniques' },
+      { label: 'Diabète', to: '/p/kit-diabete-type-1-et-2' },
+      { label: 'Tension artérielle', to: '/p/kit-tension-arterielle' },
+      { label: 'Paralysie et AVC', to: '/p/kit-paralysie-et-avc' },
+      { label: 'Arthrite', to: '/p/kit-arthrite' },
+      { label: 'Prostatite', to: '/p/kit-prostatite' },
+      { label: 'Ménopause', to: '/p/kit-menopause-et-perimenopause' },
     ],
   },
   {
@@ -44,7 +44,8 @@ export const footerColumns: FooterColumn[] = [
       { label: 'À propos', to: '/a-propos' },
       { label: 'Notre promesse qualité', to: '/qualite' },
       { label: 'Ayurvéda', to: '/c/ayurveda' },
-      { label: 'Devenir distributeur', to: '/distributeur' },
+      { label: 'Témoignages', to: '/temoignages' },
+      { label: 'Carrière', to: '/carriere' },
       { label: 'Mentions légales', to: '/mentions-legales' },
       { label: 'Politique de confidentialité', to: '/confidentialite' },
       { label: 'Conditions générales de vente', to: '/cgv' },

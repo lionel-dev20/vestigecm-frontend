@@ -18,7 +18,7 @@ const sampleImage = '/images/products/placeholder.svg'
 const sampleCategories: Category[] = [
   { id: 'complements', name: 'Compléments', to: '/c/complements', image: sampleImage, count: 52 },
   { id: 'soins-peau', name: 'Soins de la peau', to: '/c/soins-peau', image: sampleImage, count: 48 },
-  { id: 'kits-maladies', name: 'Kits maladies', to: '/c/kit-maladies', image: sampleImage, count: 9 },
+  { id: 'kits-traitement', name: 'Kits traitement', to: '/c/kits-traitement', image: sampleImage, count: 9 },
   { id: 'agriculture', name: 'Agriculture', to: '/c/agriculture', image: sampleImage, count: 36 },
 ]
 

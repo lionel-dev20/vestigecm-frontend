@@ -167,3 +167,13 @@ function vestige_menu_clean(array $links) {
         return $link;
     }, $links);
 }
+
+/**
+ * 3. Page d'accueil : éditeur classique
+ * L'éditeur de blocs enregistre les champs ACF par une 2e requête en arrière-plan, parfois bloquée
+ * par l'hébergeur ou un pare-feu : la page est « mise à jour » mais les champs gardent leur ancienne valeur.
+ * L'éditeur classique enregistre tout en un seul envoi. Le contenu de cette page est uniquement dans ACF.
+ */
+add_filter('use_block_editor_for_post', function ($use, $post) {
+    return (int) $post->ID === (int) get_option('page_on_front') ? false : $use;
+}, 10, 2);

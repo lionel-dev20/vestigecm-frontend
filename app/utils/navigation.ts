@@ -9,11 +9,10 @@ export interface NavLink {
 // Même structure que les menus WordPress importés (data/import/1-categories-et-menus.xml)
 export const sectionTabs: NavLink[] = [
   {
-    label: 'Beauté et santé',
+    label: 'Santé et beauté',
     to: '/c/sante',
     children: [
-      { label: 'Immunité et vitalité', to: '/c/immunite-vitalite' },
-      { label: 'Détox', to: '/c/detox' },
+      { label: 'Produits ayurvédiques', to: '/c/produits-ayurvediques' },
       { label: 'Minceur', to: '/c/minceur' },
       { label: 'Soins du visage et du corps', to: '/c/soins-visage-corps' },
       { label: 'Hygiène bucco-dentaire', to: '/c/hygiene-bucco-dentaire' },
@@ -21,19 +20,8 @@ export const sectionTabs: NavLink[] = [
       { label: 'Entretien de la maison', to: '/c/entretien-maison' },
     ],
   },
-  {
-    label: 'Kit des maladies',
-    to: '/c/kit-maladies',
-    children: [
-      { label: 'Hypertension et cœur', to: '/c/hypertension-coeur' },
-      { label: 'Diabète', to: '/c/diabete' },
-      { label: 'Arthrose et articulations', to: '/c/arthrose-articulations' },
-      { label: 'Santé du foie', to: '/c/sante-du-foie' },
-      { label: 'Anémie et santé féminine', to: '/c/anemie-sante-feminine' },
-      { label: 'Troubles digestifs', to: '/c/troubles-digestifs' },
-      { label: 'Prostate', to: '/c/prostate' },
-    ],
-  },
+  // Kits : un produit WooCommerce par kit, directement dans la catégorie (pas de sous-menu)
+  { label: 'Kits traitement', to: '/c/kits-traitement' },
   {
     label: 'Agriculture',
     to: '/c/agriculture',
@@ -42,6 +30,8 @@ export const sectionTabs: NavLink[] = [
       { label: 'Amendements du sol', to: '/c/amendements-sol' },
     ],
   },
+  { label: 'Témoignages', to: '/temoignages' },
+  { label: 'Carrière', to: '/carriere' },
 ]
 
 const within = (path: string, link: NavLink) => path === link.to || path.startsWith(`${link.to}/`)

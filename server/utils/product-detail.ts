@@ -2,7 +2,7 @@ import type { Product, ProductDetail } from '#shared/types/product'
 
 const groups = [
   { products: () => dealProducts, category: { label: 'Bons plans', to: '/c/all-offers' } },
-  { products: () => healthProducts, category: { label: 'Beauté et santé', to: '/' } },
+  { products: () => healthProducts, category: { label: 'Santé et beauté', to: '/c/sante' } },
   { products: () => agriProducts, category: { label: 'Agriculture', to: '/c/agriculture' } },
 ]
 

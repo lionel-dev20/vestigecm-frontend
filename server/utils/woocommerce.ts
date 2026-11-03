@@ -131,6 +131,18 @@ function toParagraphs(html: string) {
     .filter(Boolean)
 }
 
+// Description découpée par intertitres (<h2>, <h3>…) : une section dépliable par intertitre
+// Le texte avant le premier intertitre devient la section « Description »
+function toSections(html: string): ProductDetail['details'] {
+  return html.split(/<h[2-4][^>]*>/i).flatMap((part, index) => {
+    const [heading, body] = index ? part.split(/<\/h[2-4]>/i) : ['Description', part]
+    const title = decodeEntities(heading!.replace(/<[^>]+>/g, '')).trim()
+    const content = toParagraphs(body ?? '')
+    if (!title || !content.length) return []
+    return [{ title, content: content.length > 1 ? content : content[0]! }]
+  })
+}
+
 // Fiche WooCommerce gardée 30 s : la fiche, ses produits liés et ses avis partagent la même requête
 export const wooProductDetail = defineCachedFunction(fetchWooProductDetail, {
   name: 'woo-product',
@@ -162,7 +174,7 @@ async function fetchWooProductDetail(slug: string): Promise<{ detail: ProductDet
       summary: toParagraphs(wc.short_description).join(' ') || description[0] || '',
       inStock: wc.stock_status !== 'outofstock',
       category: category ? { label: decodeEntities(category.name), to: `/c/${category.slug}` } : { label: 'Boutique', to: '/' },
-      details: description.length ? [{ title: 'Description', content: description.length > 1 ? description : description[0]! }] : [],
+      details: toSections(wc.description),
     },
   }
 }

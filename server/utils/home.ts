@@ -10,7 +10,7 @@ const productImage = '/images/products/placeholder.svg'
 const defaults: HomeContent = {
   hero: [
     { title: 'Jusqu\'à -20%', subtitle: 'Les compléments que les experts prennent chaque jour', to: '/c/sante', image: '/images/hero/featured.jpg', bg: '#e7e3dc' },
-    { title: 'Kit des maladies', subtitle: 'Des produits naturels pour accompagner les maladies chroniques', to: '/c/kit-maladies', image: '/images/hero/promo-1.jpg', bg: '#2f5f9e', tone: 'light' },
+    { title: 'Kits traitement', subtitle: 'Des produits naturels pour accompagner les maladies chroniques', to: '/c/kits-traitement', image: '/images/hero/promo-1.jpg', bg: '#2f5f9e', tone: 'light' },
     { title: 'Notre promesse qualité', subtitle: 'Des produits authentiques, des standards de confiance', to: '/c/sante', image: '/images/hero/promo-2.jpg', bg: '#f2f2f0' },
   ],
   whatsapp: { title: 'Besoin d\'un conseil personnalisé ?', label: 'Rejoindre sur WhatsApp', to: 'https://wa.me/237699288607' },
@@ -27,7 +27,7 @@ const defaults: HomeContent = {
   health: {
     title: 'Santé & maladies',
     label: 'En savoir plus',
-    to: '/c/kit-maladies',
+    to: '/c/kits-traitement',
     intro: 'Chez VESTIGE, nous adoptons une approche holistique, qui agit à la racine des maladies, et non seulement sur les symptômes. Nous accompagnons efficacement des personnes souffrant de :',
     image: '/images/sante/banner.jpg',
     features: [
@@ -37,15 +37,16 @@ const defaults: HomeContent = {
       { icon: 'i-lucide-stethoscope', text: 'L\'accompagnement de professionnels de santé' },
     ],
     kits: [
-      ['Diabète', '/c/diabete'],
-      ['Faiblesse / impuissance sexuelle', '/c/kit-maladies'],
-      ['Hypertension & hypotension', '/c/hypertension-coeur'],
-      ['AVC & troubles de la mémoire', '/c/kit-maladies'],
-      ['Arthrose, douleurs articulaires, rhumatismes', '/c/arthrose-articulations'],
-      ['Prostate, infertilité, règles douloureuses', '/c/prostate'],
-      ['Hernie discale, migraine, anémie', '/c/anemie-sante-feminine'],
-      ['Tumeurs, cancers, infections pulmonaires', '/c/kit-maladies'],
-      ['Ménopause et autres maladies chroniques', '/c/kit-maladies'],
+      // Fiches des kits importés depuis data/import/kits
+      ['Diabète', '/p/kit-diabete-type-1-et-2'],
+      ['Faiblesse / impuissance sexuelle', '/p/kit-faiblesse-sexuelle'],
+      ['Hypertension & hypotension', '/p/kit-tension-arterielle'],
+      ['AVC & troubles de la mémoire', '/p/kit-paralysie-et-avc'],
+      ['Arthrose, douleurs articulaires, rhumatismes', '/p/kit-arthrite'],
+      ['Prostate, infertilité, règles douloureuses', '/p/kit-prostatite'],
+      ['Hernie discale, migraine, anémie', '/p/kit-hernie-discale'],
+      ['Tumeurs, cancers, infections pulmonaires', '/p/kit-tumeur'],
+      ['Ménopause et autres maladies chroniques', '/p/kit-menopause-et-perimenopause'],
     ].map(([name, to], index) => ({ id: `kit-${index + 1}`, name: name!, cta: 'Voir le kit', to: to!, image: productImage })),
   },
   banner: { title: 'Ayurvéda', subtitle: 'Notre nouvelle gamme de soins naturels', cta: 'Découvrir', to: '/c/sante', image: '/images/banners/ayurveda.jpg' },
