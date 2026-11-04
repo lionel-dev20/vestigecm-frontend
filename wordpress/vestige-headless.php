@@ -169,11 +169,37 @@ function vestige_menu_clean(array $links) {
 }
 
 /**
- * 3. Page d'accueil : éditeur classique
+ * 3. Pages gérées avec ACF (Accueil, Témoignages, Carrière) : éditeur classique
  * L'éditeur de blocs enregistre les champs ACF par une 2e requête en arrière-plan, parfois bloquée
  * par l'hébergeur ou un pare-feu : la page est « mise à jour » mais les champs gardent leur ancienne valeur.
  * L'éditeur classique enregistre tout en un seul envoi. Le contenu de cette page est uniquement dans ACF.
  */
 add_filter('use_block_editor_for_post', function ($use, $post) {
-    return (int) $post->ID === (int) get_option('page_on_front') ? false : $use;
+    // Accueil, Témoignages et Carrière : contenu entièrement dans ACF
+    $acf_pages = in_array($post->post_name, ['temoignages', 'carriere'], true) && $post->post_type === 'page';
+    return ((int) $post->ID === (int) get_option('page_on_front') || $acf_pages) ? false : $use;
 }, 10, 2);
+
+/**
+ * 4. Témoignages vidéo : un témoignage = une fiche (menu « Témoignages » de l'administration)
+ * Champs (sujet, vidéo, affiche, durée, lien) gérés avec ACF ; lus par le site via /wp-json/wp/v2/temoignages
+ * L'ordre d'affichage suit le champ « Ordre » (Attributs de la fiche)
+ */
+add_action('init', function () {
+    register_post_type('temoignage', [
+        'labels'        => [
+            'name'          => 'Témoignages',
+            'singular_name' => 'Témoignage',
+            'add_new_item'  => 'Ajouter un témoignage',
+            'edit_item'     => 'Modifier le témoignage',
+            'all_items'     => 'Tous les témoignages',
+        ],
+        'public'        => false,
+        'show_ui'       => true,
+        'show_in_rest'  => true,
+        'rest_base'     => 'temoignages',
+        'menu_icon'     => 'dashicons-format-video',
+        'menu_position' => 21,
+        'supports'      => ['title', 'page-attributes'],
+    ]);
+});

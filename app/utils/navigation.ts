@@ -23,6 +23,11 @@ export const sectionTabs: NavLink[] = [
   // Kits : un produit WooCommerce par kit, directement dans la catégorie (pas de sous-menu)
   { label: 'Kits traitement', to: '/c/kits-traitement' },
   {
+    label: 'Bilans et thérapies',
+    to: '/bilans-therapies',
+    children: services.map(service => ({ label: service.label, to: `/bilans-therapies#${service.id}` })),
+  },
+  {
     label: 'Agriculture',
     to: '/c/agriculture',
     children: [

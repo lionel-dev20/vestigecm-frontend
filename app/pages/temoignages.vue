@@ -1,25 +1,28 @@
 <script setup lang="ts">
+import type { TestimonialsPage } from '#shared/types/pages'
+
+// Bannière, textes et vidéos gérés dans WordPress (page « Témoignages » + menu « Témoignages »)
+const { data: page } = await useFetch<TestimonialsPage>('/api/pages/temoignages', { key: 'page-temoignages' })
+
 useSeoMeta({
   title: 'Témoignages',
   description: 'Ils utilisent les produits naturels VESTIGE : découvrez leurs témoignages en vidéo.',
 })
 
-// Filtre par sujet (Diabète, Arthrite…) ; « Tous » par défaut
+// Filtre par sujet (Diabète, Arthrite…), dans l'ordre d'apparition ; « Tous » par défaut
 const topic = ref<string>()
-const list = computed(() => (topic.value ? testimonials.filter(t => t.topic === topic.value) : testimonials))
-
-// Message pré-rempli pour envoyer son témoignage
-const whatsapp = `https://wa.me/237699288607?text=${encodeURIComponent('Bonjour, je souhaite partager mon témoignage sur les produits VESTIGE.')}`
+const topics = computed(() => [...new Set(page.value?.items.map(item => item.topic))])
+const list = computed(() => page.value?.items.filter(item => !topic.value || item.topic === topic.value) ?? [])
 </script>
 
 <template>
-  <div class="mx-auto max-w-350 px-4 py-6 lg:px-8 lg:py-8">
+  <div v-if="page" class="mx-auto max-w-350 px-4 py-6 lg:px-8 lg:py-8">
     <BaseBreadcrumb :links="[{ label: 'Accueil', to: '/' }, { label: 'Témoignages' }]" />
 
     <!-- Bannière : le titre « NOS Témoignages » est dans l'image -->
     <h1 class="sr-only">Nos témoignages</h1>
     <NuxtImg
-      src="/images/temoignages/banniere.jpg"
+      :src="page.banner"
       alt="VESTIGE – Nos témoignages"
       width="1080"
       height="607"
@@ -30,14 +33,12 @@ const whatsapp = `https://wa.me/237699288607?text=${encodeURIComponent('Bonjour,
       class="mx-auto mt-4 w-full max-w-5xl rounded-2xl"
     />
 
-    <p class="mx-auto mt-6 max-w-2xl text-center text-lg text-[#555]">
-      Suivez les témoignages des personnes qui utilisent déjà nos produits.
-    </p>
+    <p class="mx-auto mt-6 max-w-2xl text-center text-lg text-[#555]">{{ page.intro }}</p>
 
     <!-- Filtres : défilent horizontalement sur mobile -->
-    <div class="scrollbar-none -mx-4 mt-6 overflow-x-auto px-4">
+    <div v-if="topics.length > 1" class="scrollbar-none -mx-4 mt-6 overflow-x-auto px-4">
       <ul class="flex w-max gap-2" aria-label="Sujets">
-        <li v-for="item in [undefined, ...testimonialTopics]" :key="item ?? 'tous'">
+        <li v-for="item in [undefined, ...topics]" :key="item ?? 'tous'">
           <button
             type="button"
             :aria-pressed="topic === item"
@@ -59,15 +60,15 @@ const whatsapp = `https://wa.me/237699288607?text=${encodeURIComponent('Bonjour,
     </ul>
 
     <div class="mx-auto mt-12 max-w-xl rounded-2xl bg-panel p-8 text-center">
-      <p class="font-semibold text-[#222]">Vous aussi, partagez votre expérience</p>
-      <p class="mt-1 text-[#666]">Envoyez-nous votre témoignage par WhatsApp : texte, photo ou vidéo.</p>
+      <p class="font-semibold text-[#222]">{{ page.cta.title }}</p>
+      <p class="mt-1 text-[#666]">{{ page.cta.text }}</p>
       <NuxtLink
-        :to="whatsapp"
+        :to="whatsappLink(page.cta.message)"
         target="_blank"
         class="mt-5 inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 font-bold text-white hover:bg-ink/90"
       >
         <UIcon name="i-simple-icons-whatsapp" class="size-5" />
-        Partager mon témoignage
+        {{ page.cta.label }}
       </NuxtLink>
     </div>
   </div>

@@ -25,6 +25,8 @@ export default defineNuxtConfig({
       '/api/products/**': { cache: { maxAge: 60, swr: false } },
       // Accueil : un texte modifié dans WordPress apparaît en 1 minute au plus
       '/api/home': { cache: { maxAge: 60, swr: false } },
+      // Témoignages et Carrière : même délai que l'accueil
+      '/api/pages/**': { cache: { maxAge: 60, swr: false } },
       // Jamais de cache sur la commande et les avis : le cache Nitro perd le corps des POST
       '/api/checkout': { cache: false },
       '/api/reviews/**': { cache: false },

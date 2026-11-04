@@ -23,7 +23,7 @@ useHead(() => {
     <!-- Au-dessus de la ligne de flottaison : rendu serveur -->
     <HeroPromoGrid :promos="home.hero" />
 
-    <ContactWhatsAppBanner :title="home.whatsapp.title" :label="home.whatsapp.label" :to="home.whatsapp.to" />
+    <ContactWhatsAppBanner :title="home.whatsapp.title" :label="home.whatsapp.label" />
 
     <QualityShowcase v-bind="home.quality" />
 

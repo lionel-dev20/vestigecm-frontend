@@ -1,11 +1,11 @@
 <script setup lang="ts">
-const props = withDefaults(defineProps<{ title?: string; label?: string; to?: string }>(), {
+// Textes gérés dans WordPress (ACF) ; lien identique à l'icône WhatsApp du footer (NUXT_PUBLIC_WHATSAPP_URL)
+withDefaults(defineProps<{ title?: string; label?: string }>(), {
   title: 'Besoin d\'un conseil personnalisé ?',
-  label: 'Rejoindre sur WhatsApp',
+  label: 'Rejoindre notre WhatsApp',
 })
 
-// Lien géré dans WordPress (ACF) ; à défaut, NUXT_PUBLIC_WHATSAPP_URL
-const whatsappUrl = computed(() => props.to || useRuntimeConfig().public.whatsappUrl)
+const { whatsappUrl } = useRuntimeConfig().public
 </script>
 
 <template>

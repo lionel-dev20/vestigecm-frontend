@@ -1,0 +1,646 @@
+[
+  {
+    "key": "group_vestige_temoignages",
+    "title": "Page Témoignages",
+    "fields": [
+      {
+        "type": "message",
+        "label": "",
+        "message": "Les vidéos se gèrent dans le menu <strong>Témoignages</strong> de l'administration : une fiche par vidéo.",
+        "new_lines": "wpautop",
+        "esc_html": 0,
+        "key": "field_vt_temoignages_note",
+        "name": ""
+      },
+      {
+        "type": "image",
+        "name": "banner",
+        "label": "Bannière",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "return_format": "array",
+        "preview_size": "medium",
+        "library": "all",
+        "instructions": "Format paysage, ex. 1080 × 607 px. Laissée vide : la bannière « NOS Témoignages » actuelle.",
+        "key": "field_vt_banner",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "textarea",
+        "name": "intro",
+        "label": "Texte sous la bannière",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "rows": 2,
+        "new_lines": "",
+        "default_value": "Suivez les témoignages des personnes qui utilisent déjà nos produits.",
+        "key": "field_vt_intro",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "group",
+        "name": "cta",
+        "label": "Bouton WhatsApp",
+        "layout": "block",
+        "sub_fields": [
+          {
+            "type": "text",
+            "name": "title",
+            "label": "Titre",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "default_value": "Vous aussi, partagez votre expérience",
+            "key": "field_vt_cta_title",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "text",
+            "name": "button_label",
+            "label": "Texte du bouton",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "default_value": "Partager mon témoignage",
+            "key": "field_vt_cta_button_label",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "textarea",
+            "name": "text",
+            "label": "Texte",
+            "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+            },
+            "rows": 2,
+            "new_lines": "",
+            "default_value": "Envoyez-nous votre témoignage par WhatsApp : texte, photo ou vidéo.",
+            "key": "field_vt_cta_text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "text",
+            "name": "message",
+            "label": "Message pré-rempli dans WhatsApp",
+            "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+            },
+            "instructions": "Envoyé au 699 288 607 (numéro de la boutique, défini dans le site).",
+            "default_value": "Bonjour, je souhaite partager mon témoignage sur les produits VESTIGE.",
+            "key": "field_vt_cta_message",
+            "required": 0,
+            "conditional_logic": 0
+          }
+        ],
+        "instructions": "",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "key": "field_vt_cta",
+        "required": 0,
+        "conditional_logic": 0
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "page",
+          "operator": "==",
+          "value": "8101"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+      "the_content"
+    ],
+    "active": true,
+    "description": "Bannière et textes de la page Témoignages.",
+    "show_in_rest": 1
+  },
+  {
+    "key": "group_vestige_carriere",
+    "title": "Page Carrière",
+    "fields": [
+      {
+        "type": "image",
+        "name": "banner",
+        "label": "Bannière (facultative)",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "return_format": "array",
+        "preview_size": "medium",
+        "library": "all",
+        "instructions": "Format paysage, ex. 1200 × 500 px. Laissée vide : pas de bannière.",
+        "key": "field_vc_banner",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "text",
+        "name": "title",
+        "label": "Titre",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "Devenez distributeur VESTIGE",
+        "key": "field_vc_title",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "textarea",
+        "name": "intro",
+        "label": "Introduction",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "rows": 2,
+        "new_lines": "",
+        "default_value": "Vous souhaitez développer une activité autour de la santé naturelle ? Rejoignez le réseau VESTIGE Cameroun.",
+        "key": "field_vc_intro",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "group",
+        "name": "step_1",
+        "label": "Étape 1",
+        "layout": "block",
+        "sub_fields": [
+          {
+            "type": "select",
+            "name": "icon",
+            "label": "Icône",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "choices": {
+              "i-lucide-message-circle": "Bulle (contact)",
+              "i-lucide-graduation-cap": "Diplôme (formation)",
+              "i-lucide-handshake": "Poignée de main (accompagnement)",
+              "i-lucide-briefcase": "Mallette (activité)",
+              "i-lucide-users": "Groupe (réseau)",
+              "i-lucide-wallet": "Portefeuille (revenus)",
+              "i-lucide-leaf": "Feuille (naturel)",
+              "i-lucide-heart-handshake": "Cœur (entraide)",
+              "i-lucide-calendar-check": "Calendrier (rendez-vous)"
+            },
+            "return_format": "value",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "default_value": "i-lucide-message-circle",
+            "key": "field_vc_step_1_icon",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "text",
+            "name": "title",
+            "label": "Titre",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "default_value": "Prenez contact",
+            "key": "field_vc_step_1_title",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "textarea",
+            "name": "text",
+            "label": "Texte",
+            "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+            },
+            "rows": 2,
+            "new_lines": "",
+            "default_value": "Échangez avec notre équipe à Douala sur WhatsApp.",
+            "key": "field_vc_step_1_text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          }
+        ],
+        "instructions": "",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "key": "field_vc_step_1",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "group",
+        "name": "step_2",
+        "label": "Étape 2",
+        "layout": "block",
+        "sub_fields": [
+          {
+            "type": "select",
+            "name": "icon",
+            "label": "Icône",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "choices": {
+              "i-lucide-message-circle": "Bulle (contact)",
+              "i-lucide-graduation-cap": "Diplôme (formation)",
+              "i-lucide-handshake": "Poignée de main (accompagnement)",
+              "i-lucide-briefcase": "Mallette (activité)",
+              "i-lucide-users": "Groupe (réseau)",
+              "i-lucide-wallet": "Portefeuille (revenus)",
+              "i-lucide-leaf": "Feuille (naturel)",
+              "i-lucide-heart-handshake": "Cœur (entraide)",
+              "i-lucide-calendar-check": "Calendrier (rendez-vous)"
+            },
+            "return_format": "value",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "default_value": "i-lucide-graduation-cap",
+            "key": "field_vc_step_2_icon",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "text",
+            "name": "title",
+            "label": "Titre",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "default_value": "Formez-vous",
+            "key": "field_vc_step_2_title",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "textarea",
+            "name": "text",
+            "label": "Texte",
+            "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+            },
+            "rows": 2,
+            "new_lines": "",
+            "default_value": "Découvrez les produits, les kits et les conseils d'utilisation.",
+            "key": "field_vc_step_2_text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          }
+        ],
+        "instructions": "",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "key": "field_vc_step_2",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "group",
+        "name": "step_3",
+        "label": "Étape 3",
+        "layout": "block",
+        "sub_fields": [
+          {
+            "type": "select",
+            "name": "icon",
+            "label": "Icône",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "choices": {
+              "i-lucide-message-circle": "Bulle (contact)",
+              "i-lucide-graduation-cap": "Diplôme (formation)",
+              "i-lucide-handshake": "Poignée de main (accompagnement)",
+              "i-lucide-briefcase": "Mallette (activité)",
+              "i-lucide-users": "Groupe (réseau)",
+              "i-lucide-wallet": "Portefeuille (revenus)",
+              "i-lucide-leaf": "Feuille (naturel)",
+              "i-lucide-heart-handshake": "Cœur (entraide)",
+              "i-lucide-calendar-check": "Calendrier (rendez-vous)"
+            },
+            "return_format": "value",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "default_value": "i-lucide-handshake",
+            "key": "field_vc_step_3_icon",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "text",
+            "name": "title",
+            "label": "Titre",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "default_value": "Accompagnez vos clients",
+            "key": "field_vc_step_3_title",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "textarea",
+            "name": "text",
+            "label": "Texte",
+            "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+            },
+            "rows": 2,
+            "new_lines": "",
+            "default_value": "Partagez les produits VESTIGE autour de vous, avec notre soutien.",
+            "key": "field_vc_step_3_text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          }
+        ],
+        "instructions": "",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "key": "field_vc_step_3",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "group",
+        "name": "cta",
+        "label": "Bouton WhatsApp",
+        "layout": "block",
+        "sub_fields": [
+          {
+            "type": "text",
+            "name": "button_label",
+            "label": "Texte du bouton",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "default_value": "Nous contacter",
+            "key": "field_vc_cta_button_label",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          },
+          {
+            "type": "text",
+            "name": "message",
+            "label": "Message pré-rempli dans WhatsApp",
+            "wrapper": {
+              "width": "50",
+              "class": "",
+              "id": ""
+            },
+            "default_value": "Bonjour, je souhaite devenir distributeur VESTIGE.",
+            "key": "field_vc_cta_message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0
+          }
+        ],
+        "instructions": "",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "key": "field_vc_cta",
+        "required": 0,
+        "conditional_logic": 0
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "page",
+          "operator": "==",
+          "value": "8102"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+      "the_content"
+    ],
+    "active": true,
+    "description": "Contenu de la page Carrière.",
+    "show_in_rest": 1
+  },
+  {
+    "key": "group_vestige_temoignage",
+    "title": "Témoignage vidéo",
+    "fields": [
+      {
+        "type": "text",
+        "name": "topic",
+        "label": "Sujet",
+        "wrapper": {
+          "width": "50",
+          "class": "",
+          "id": ""
+        },
+        "instructions": "Affiché sur la carte et utilisé pour les filtres, ex. Diabète. Même orthographe pour regrouper les vidéos.",
+        "default_value": "",
+        "key": "field_vv_topic",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "text",
+        "name": "duration",
+        "label": "Durée",
+        "wrapper": {
+          "width": "50",
+          "class": "",
+          "id": ""
+        },
+        "placeholder": "2:17",
+        "instructions": "Facultatif, affichée sur la carte.",
+        "default_value": "",
+        "key": "field_vv_duration",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "file",
+        "name": "video_file",
+        "label": "Vidéo (fichier MP4)",
+        "wrapper": {
+          "width": "50",
+          "class": "",
+          "id": ""
+        },
+        "return_format": "url",
+        "library": "all",
+        "mime_types": "mp4",
+        "instructions": "Envoyez la vidéo ici, OU collez son lien à droite. Conseil : moins de 30 Mo, pour les connexions mobiles.",
+        "key": "field_vv_video_file",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "url",
+        "name": "video_url",
+        "label": "Vidéo (lien MP4)",
+        "wrapper": {
+          "width": "50",
+          "class": "",
+          "id": ""
+        },
+        "instructions": "Lien direct vers un fichier .mp4. Ignoré si un fichier est envoyé.",
+        "default_value": "",
+        "key": "field_vv_video_url",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "image",
+        "name": "poster",
+        "label": "Image de couverture",
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "return_format": "array",
+        "preview_size": "medium",
+        "library": "all",
+        "instructions": "Format 16:9, ex. 640 × 360 px : une scène de la vidéo qui donne envie de la lire.",
+        "key": "field_vv_poster",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "text",
+        "name": "link",
+        "label": "Lien sous la vidéo",
+        "wrapper": {
+          "width": "50",
+          "class": "",
+          "id": ""
+        },
+        "instructions": "Chemin du site, ex. /p/kit-diabete-type-1-et-2 ou /c/kits-traitement.",
+        "placeholder": "/p/kit-diabete-type-1-et-2",
+        "default_value": "",
+        "key": "field_vv_link",
+        "required": 0,
+        "conditional_logic": 0
+      },
+      {
+        "type": "text",
+        "name": "link_label",
+        "label": "Texte du lien",
+        "wrapper": {
+          "width": "50",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "Voir le kit",
+        "key": "field_vv_link_label",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "temoignage"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+      "the_content"
+    ],
+    "active": true,
+    "description": "Vidéo, couverture et lien d'un témoignage.",
+    "show_in_rest": 1
+  }
+]

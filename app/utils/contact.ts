@@ -7,3 +7,7 @@ export const contact = {
   // Position Google Maps de la boutique (Douala)
   mapUrl: 'https://www.google.com/maps?q=4.030899,9.766589',
 }
+
+// Conversation WhatsApp de la boutique, avec un message pré-rempli facultatif
+export const whatsappLink = (message?: string) =>
+  message ? `${contact.whatsappUrl}?text=${encodeURIComponent(message)}` : contact.whatsappUrl

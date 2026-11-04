@@ -1,15 +1,7 @@
-// Témoignages vidéo (MP4 hébergés par systeme.io, repris de la page topvestigeci)
-// topic : sujet affiché sur la carte · to : kit ou produit concerné
-export interface Testimonial {
-  id: string
-  topic: string
-  to: string
-  video: string
-  // Image extraite de la vidéo (public/images/temoignages/posters) et durée en secondes
-  poster: string
-  duration: number
-}
+import type { Testimonial } from '#shared/types/pages'
 
+// Témoignages par défaut (MP4 hébergés par systeme.io, repris de la page topvestigeci)
+// Utilisés tant que les témoignages ne sont pas importés dans WordPress, ou s'il ne répond pas
 const cdn = 'https://d1yei2z3i6k35z.cloudfront.net/3181935/'
 
 const groups: [topic: string, to: string, files: string[]][] = [
@@ -108,12 +100,27 @@ const durations: Record<string, number> = {
   '67e06ef55d486': 232,
 }
 
-export const testimonials: Testimonial[] = groups.flatMap(([topic, to, files]) =>
+// Affiches extraites des vidéos (public/images/temoignages/posters), repérées par l'identifiant du fichier
+export const posterIds = new Set(Object.keys(durations))
+export const posterFor = (video: string) => {
+  const id = video.split('/').pop()?.slice(0, 13) ?? ''
+  return posterIds.has(id) ? `/images/temoignages/posters/${id}.jpg` : ''
+}
+
+// 137 → « 2:17 »
+const clock = (seconds: number) => `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`
+
+export const defaultTestimonials: Testimonial[] = groups.flatMap(([topic, to, files]) =>
   files.map((file) => {
     const id = file.slice(0, 13)
-    return { id, topic, to, video: cdn + file, poster: `/images/temoignages/posters/${id}.jpg`, duration: durations[id] ?? 0 }
+    return {
+      id,
+      topic,
+      video: cdn + file,
+      poster: posterFor(file),
+      duration: durations[id] ? clock(durations[id]) : '',
+      to,
+      linkLabel: to.startsWith('/p/kit-') ? 'Voir le kit' : 'Voir',
+    }
   }),
 )
-
-// Sujets dans l'ordre de la page, pour les filtres
-export const testimonialTopics = groups.map(([topic]) => topic)

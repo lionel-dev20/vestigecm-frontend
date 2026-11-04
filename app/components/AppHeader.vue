@@ -14,7 +14,7 @@ const categories = computed(() => (activeSection(route.path) ?? sectionTabs[0])?
   <header class="contents text-ink">
     <!-- Ligne principale collée au scroll, avec bordure gris clair + ombre douce -->
     <div class="sticky top-0 z-30 border-b border-[#ececec] bg-white shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
-      <div class="mx-auto flex max-w-350 flex-wrap items-center gap-x-4 gap-y-3 px-4 py-3 lg:flex-nowrap lg:gap-x-6 2xl:gap-x-10 lg:px-8 lg:py-4">
+      <div class="mx-auto flex max-w-350 flex-wrap items-center gap-x-4 gap-y-3 px-4 py-3 lg:flex-nowrap lg:gap-x-6 xl:gap-x-4 2xl:gap-x-8 lg:px-8 lg:py-4">
         <UButton
           icon="i-lucide-menu"
           variant="ghost"
@@ -27,10 +27,10 @@ const categories = computed(() => (activeSection(route.path) ?? sectionTabs[0])?
 
         <HeaderLogo />
 
-        <HeaderSectionTabs :links="sectionTabs" class="hidden xl:block xl:ml-2 2xl:ml-8" />
+        <HeaderSectionTabs :links="sectionTabs" class="hidden xl:block xl:ml-0 2xl:ml-4" />
 
-        <!-- Mobile : ligne pleine largeur sous le logo -->
-        <HeaderSearch class="order-last w-full lg:order-0 lg:ml-auto lg:w-auto lg:max-w-md lg:flex-1" />
+        <!-- Bureau : réduite à une loupe, qui ouvre la barre au premier plan -->
+        <HeaderSearch class="order-last w-full lg:order-0 lg:ml-auto lg:w-auto lg:max-w-md lg:flex-1 xl:flex-none" />
 
         <HeaderActions class="ml-auto lg:ml-0" />
       </div>

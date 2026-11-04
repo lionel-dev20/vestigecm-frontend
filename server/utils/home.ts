@@ -13,7 +13,7 @@ const defaults: HomeContent = {
     { title: 'Kits traitement', subtitle: 'Des produits naturels pour accompagner les maladies chroniques', to: '/c/kits-traitement', image: '/images/hero/promo-1.jpg', bg: '#2f5f9e', tone: 'light' },
     { title: 'Notre promesse qualité', subtitle: 'Des produits authentiques, des standards de confiance', to: '/c/sante', image: '/images/hero/promo-2.jpg', bg: '#f2f2f0' },
   ],
-  whatsapp: { title: 'Besoin d\'un conseil personnalisé ?', label: 'Rejoindre sur WhatsApp', to: 'https://wa.me/237699288607' },
+  whatsapp: { title: 'Besoin d\'un conseil personnalisé ?', label: 'Rejoindre notre WhatsApp', to: 'https://wa.me/237699288607' },
   quality: {
     title: 'Notre promesse qualité',
     text: 'La médecine naturelle indienne (Ayurvéda) est désormais chez vous, grâce à la thérapie nutritionnelle cellulaire.',
@@ -93,14 +93,8 @@ const defaults: HomeContent = {
 
 // ---------- Lecture des champs ACF (avec repli champ par champ) ----------
 
-type Fields = Record<string, unknown>
-const group = (value: unknown): Fields => (value && typeof value === 'object' && !Array.isArray(value) ? value as Fields : {})
-const text = (value: unknown, fallback: string) => (typeof value === 'string' && value.trim() ? value.trim() : fallback)
-// Champ image ACF (format « array ») : { url, … } ; vide = false ou null
-const image = (value: unknown, fallback: string) => {
-  const url = group(value).url
-  return typeof url === 'string' && url ? url : fallback
-}
+type Fields = AcfFields
+const { group, text, image } = acf
 
 function heroCard(acf: Fields, fallback: Promo): Promo {
   return {

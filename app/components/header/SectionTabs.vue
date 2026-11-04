@@ -9,12 +9,12 @@ const isActive = (to: string) => activeSection(route.path)?.to === to
 
 <template>
   <nav aria-label="Univers">
-    <!-- 5 univers : plus serrés sous 1440px pour laisser la place à la recherche -->
-    <ul class="flex items-center gap-1 2xl:gap-2">
+    <!-- 6 univers : plus serrés sous 1536px pour laisser la place à la recherche et au panier -->
+    <ul class="flex items-center gap-0.5 2xl:gap-1">
       <li v-for="link in links" :key="link.to">
         <NuxtLink
           :to="link.to"
-          class="block whitespace-nowrap rounded-full border-2 px-3 py-4 text-sm font-bold uppercase leading-none transition-colors duration-150 2xl:px-4 2xl:text-md"
+          class="block whitespace-nowrap rounded-full border-2 px-2.5 py-4 text-[13px] font-bold uppercase leading-none transition-colors duration-150 2xl:px-3 2xl:text-sm"
           :class="isActive(link.to) ? 'border-accent' : 'border-transparent hover:border-ink/15'"
           :aria-current="isActive(link.to) ? 'page' : undefined"
         >

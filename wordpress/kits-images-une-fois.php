@@ -32,7 +32,7 @@ add_action('admin_init', function () {
         if (strpos($name, 'kit-') !== 0) {
             continue;
         }
-        $name = preg_replace('/-\d+$/', '', $name);
+        $name = preg_replace('/-\d+$/', '', $name); 
         $images[$name] = $images[$name] ?? $id;
     }
 

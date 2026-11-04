@@ -1,14 +1,10 @@
 <script setup lang="ts">
-import type { Testimonial } from '~/utils/testimonials'
+import type { Testimonial } from '#shared/types/pages'
 
-const props = defineProps<Testimonial>()
+defineProps<Testimonial>()
 
 // Vidéo chargée seulement au clic : avant, seule l'affiche (quelques Ko) est téléchargée
 const playing = ref(false)
-const isKit = computed(() => props.to.startsWith('/p/kit-'))
-
-// 92 → « 1:32 »
-const length = computed(() => `${Math.floor(props.duration / 60)}:${String(props.duration % 60).padStart(2, '0')}`)
 </script>
 
 <template>
@@ -17,7 +13,7 @@ const length = computed(() => `${Math.floor(props.duration / 60)}:${String(props
       <video
         v-if="playing"
         :src="video"
-        :poster="poster"
+        :poster="poster || undefined"
         controls
         autoplay
         playsinline
@@ -26,11 +22,13 @@ const length = computed(() => `${Math.floor(props.duration / 60)}:${String(props
       <button
         v-else
         type="button"
-        :aria-label="`Regarder le témoignage : ${topic}, ${length}`"
+        :aria-label="`Regarder le témoignage : ${topic}`"
         class="group absolute inset-0 cursor-pointer"
         @click="playing = true"
       >
+        <!-- Sans couverture : fond uni et bouton lecture -->
         <NuxtImg
+          v-if="poster"
           :src="poster"
           alt=""
           width="480"
@@ -52,7 +50,7 @@ const length = computed(() => `${Math.floor(props.duration / 60)}:${String(props
           </span>
         </span>
         <span v-if="duration" class="absolute bottom-3 right-3 rounded-md bg-black/75 px-2 py-0.5 text-xs font-semibold text-white">
-          {{ length }}
+          {{ duration }}
         </span>
       </button>
     </div>
@@ -60,7 +58,7 @@ const length = computed(() => `${Math.floor(props.duration / 60)}:${String(props
     <div class="flex flex-1 items-center justify-between gap-3 p-4">
       <p class="font-semibold text-[#222]">Témoignage · {{ topic }}</p>
       <NuxtLink :to="to" class="shrink-0 text-sm font-semibold text-link hover:underline">
-        {{ isKit ? 'Voir le kit' : 'Voir' }}
+        {{ linkLabel }}
       </NuxtLink>
     </div>
   </article>

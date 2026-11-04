@@ -1,0 +1,2275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- VESTIGE – pages Témoignages et Carrière + témoignages vidéo. Importer APRÈS le groupe de champs : Outils > Importer > WordPress -->
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+  <title>VESTIGE Cameroun</title>
+  <link>https://admin.vestigecmr.com</link>
+  <language>fr-FR</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://admin.vestigecmr.com</wp:base_site_url>
+  <wp:base_blog_url>https://admin.vestigecmr.com</wp:base_blog_url>
+  <wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name></wp:author>
+  <item>
+    <title><![CDATA[Témoignages]]></title>
+    <link>https://admin.vestigecmr.com/?p=8101</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8101</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8101</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignages]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>banner</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_banner</wp:meta_key><wp:meta_value><![CDATA[field_vt_banner]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>intro</wp:meta_key><wp:meta_value><![CDATA[Suivez les témoignages des personnes qui utilisent déjà nos produits.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_intro</wp:meta_key><wp:meta_value><![CDATA[field_vt_intro]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>cta</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_cta</wp:meta_key><wp:meta_value><![CDATA[field_vt_cta]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>cta_title</wp:meta_key><wp:meta_value><![CDATA[Vous aussi, partagez votre expérience]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_cta_title</wp:meta_key><wp:meta_value><![CDATA[field_vt_cta_title]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>cta_button_label</wp:meta_key><wp:meta_value><![CDATA[Partager mon témoignage]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_cta_button_label</wp:meta_key><wp:meta_value><![CDATA[field_vt_cta_button_label]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>cta_text</wp:meta_key><wp:meta_value><![CDATA[Envoyez-nous votre témoignage par WhatsApp : texte, photo ou vidéo.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_cta_text</wp:meta_key><wp:meta_value><![CDATA[field_vt_cta_text]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>cta_message</wp:meta_key><wp:meta_value><![CDATA[Bonjour, je souhaite partager mon témoignage sur les produits VESTIGE.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_cta_message</wp:meta_key><wp:meta_value><![CDATA[field_vt_cta_message]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Carrière]]></title>
+    <link>https://admin.vestigecmr.com/?p=8102</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8102</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8102</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[carriere]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>banner</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_banner</wp:meta_key><wp:meta_value><![CDATA[field_vc_banner]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>title</wp:meta_key><wp:meta_value><![CDATA[Devenez distributeur VESTIGE]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_title</wp:meta_key><wp:meta_value><![CDATA[field_vc_title]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>intro</wp:meta_key><wp:meta_value><![CDATA[Vous souhaitez développer une activité autour de la santé naturelle ? Rejoignez le réseau VESTIGE Cameroun.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_intro</wp:meta_key><wp:meta_value><![CDATA[field_vc_intro]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_1</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_1</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_1]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_1_icon</wp:meta_key><wp:meta_value><![CDATA[i-lucide-message-circle]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_1_icon</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_1_icon]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_1_title</wp:meta_key><wp:meta_value><![CDATA[Prenez contact]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_1_title</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_1_title]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_1_text</wp:meta_key><wp:meta_value><![CDATA[Échangez avec notre équipe à Douala sur WhatsApp.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_1_text</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_1_text]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_2</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_2</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_2_icon</wp:meta_key><wp:meta_value><![CDATA[i-lucide-graduation-cap]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_2_icon</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_2_icon]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_2_title</wp:meta_key><wp:meta_value><![CDATA[Formez-vous]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_2_title</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_2_title]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_2_text</wp:meta_key><wp:meta_value><![CDATA[Découvrez les produits, les kits et les conseils d'utilisation.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_2_text</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_2_text]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_3</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_3</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_3]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_3_icon</wp:meta_key><wp:meta_value><![CDATA[i-lucide-handshake]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_3_icon</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_3_icon]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_3_title</wp:meta_key><wp:meta_value><![CDATA[Accompagnez vos clients]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_3_title</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_3_title]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>step_3_text</wp:meta_key><wp:meta_value><![CDATA[Partagez les produits VESTIGE autour de vous, avec notre soutien.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_step_3_text</wp:meta_key><wp:meta_value><![CDATA[field_vc_step_3_text]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>cta</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_cta</wp:meta_key><wp:meta_value><![CDATA[field_vc_cta]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>cta_button_label</wp:meta_key><wp:meta_value><![CDATA[Nous contacter]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_cta_button_label</wp:meta_key><wp:meta_value><![CDATA[field_vc_cta_button_label]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>cta_message</wp:meta_key><wp:meta_value><![CDATA[Bonjour, je souhaite devenir distributeur VESTIGE.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_cta_message</wp:meta_key><wp:meta_value><![CDATA[field_vc_cta_message]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8201</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8201</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8201</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-1]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[7:23]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658728ef0763d_Diabete_4_FullHD1080p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8202</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8202</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8202</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-2]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>2</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:31]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65872a0f64236_diabete_2_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 3]]></title>
+    <link>https://admin.vestigecmr.com/?p=8203</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8203</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8203</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-3]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>3</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:17]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65872a78ac7bd_diabete_1_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 4]]></title>
+    <link>https://admin.vestigecmr.com/?p=8204</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8204</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8204</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-4]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>4</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:36]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65872df5bb021_diabete_3_FullHD1080p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 5]]></title>
+    <link>https://admin.vestigecmr.com/?p=8205</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8205</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8205</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-5]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>5</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:04]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/66757a78b019a_VID-20240609-WA0047.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 6]]></title>
+    <link>https://admin.vestigecmr.com/?p=8206</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8206</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8206</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-6]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>6</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:25]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/66814693c7b1e_Projet_05-22_SD360p_MEDIUM_FR30_1.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 7]]></title>
+    <link>https://admin.vestigecmr.com/?p=8207</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8207</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8207</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-7]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>7</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:02]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/668146faef74d_Projet_06-291_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 8]]></title>
+    <link>https://admin.vestigecmr.com/?p=8208</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8208</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8208</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-8]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>8</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:37]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/6681475901e53_Projet_06-21_FullHD1080p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 9]]></title>
+    <link>https://admin.vestigecmr.com/?p=8209</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8209</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8209</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-9]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>9</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:41]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/668148e99c487_Projet_05-222_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Diabète – témoignage 10]]></title>
+    <link>https://admin.vestigecmr.com/?p=8210</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8210</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8210</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-10]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>10</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Diabète]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:38]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/67e0163d90518_Projet_03-23_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-diabete-type-1-et-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Hypertension – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8211</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8211</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8211</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-11]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>11</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Hypertension]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:46]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/6746614d77e93_Projet_11-24_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-tension-arterielle]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Arthrite – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8212</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8212</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8212</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-12]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>12</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Arthrite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:39]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65874af9dac8a_art_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-arthrite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Arthrite – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8213</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8213</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8213</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-13]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>13</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Arthrite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:30]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65874b6376e25_arthrite_3_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-arthrite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Arthrite – témoignage 3]]></title>
+    <link>https://admin.vestigecmr.com/?p=8214</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8214</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8214</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-14]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>14</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Arthrite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:36]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65874bdef11c7_arthrite_1_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-arthrite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Arthrite – témoignage 4]]></title>
+    <link>https://admin.vestigecmr.com/?p=8215</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8215</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8215</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-15]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>15</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Arthrite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:12]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/67e0176ba0fd6_Projet_03-232_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-arthrite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Cancer – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8216</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8216</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8216</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-16]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>16</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Cancer]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:07]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65874e34d821a_CANCER_2_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Cancer – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8217</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8217</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8217</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-17]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>17</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Cancer]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[5:15]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65874e9c6616a_cancer_4_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Cancer – témoignage 3]]></title>
+    <link>https://admin.vestigecmr.com/?p=8218</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8218</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8218</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-18]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>18</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Cancer]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:06]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65874f33248e3_Projet_12-235_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Cancer – témoignage 4]]></title>
+    <link>https://admin.vestigecmr.com/?p=8219</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8219</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8219</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-19]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>19</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Cancer]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:50]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/6587500b26e4e_CANCER_1_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Cancer – témoignage 5]]></title>
+    <link>https://admin.vestigecmr.com/?p=8220</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8220</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8220</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-20]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>20</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Cancer]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[5:09]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/674664c4a011f_Cancer_Sein__HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Cancer – témoignage 6]]></title>
+    <link>https://admin.vestigecmr.com/?p=8221</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8221</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8221</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-21]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>21</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Cancer]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[5:07]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/674666438f0aa_Projet_09-15_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Cancer – témoignage 7]]></title>
+    <link>https://admin.vestigecmr.com/?p=8222</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8222</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8222</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-22]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>22</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Cancer]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:51]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/67e01a335762e_Projet_03-19_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Cancer – témoignage 8]]></title>
+    <link>https://admin.vestigecmr.com/?p=8223</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8223</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8223</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-23]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>23</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Cancer]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[4:09]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/67e063a544217_Projet_03-239_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Prostatite – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8224</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8224</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8224</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-24]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>24</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Prostatite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:17]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658750a5a93f8_Projet_12-2328_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-prostatite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Prostatite – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8225</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8225</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8225</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-25]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>25</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Prostatite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:54]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658750f778bf5_Prostate_1_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-prostatite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Prostatite – témoignage 3]]></title>
+    <link>https://admin.vestigecmr.com/?p=8226</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8226</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8226</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-26]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>26</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Prostatite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:05]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/66814a806dcf5_Projet_06-308_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-prostatite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Prostatite – témoignage 4]]></title>
+    <link>https://admin.vestigecmr.com/?p=8227</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8227</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8227</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-27]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>27</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Prostatite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:45]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/6746627400bf1_Prostate__FullHD1080p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-prostatite]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[AVC et paralysie – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8228</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8228</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8228</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-28]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>28</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[AVC et paralysie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:36]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658751689a9f8_AVC2__SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-paralysie-et-avc]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[AVC et paralysie – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8229</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8229</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8229</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-29]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>29</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[AVC et paralysie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:00]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658751ba55b78_AVC1_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-paralysie-et-avc]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[AVC et paralysie – témoignage 3]]></title>
+    <link>https://admin.vestigecmr.com/?p=8230</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8230</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8230</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-30]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>30</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[AVC et paralysie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:41]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875232282a0_AVC3_FullHD1080p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-paralysie-et-avc]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Problèmes cardiaques – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8231</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8231</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8231</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-31]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>31</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Problèmes cardiaques]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[0:28]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875379cab6b_Projet_12-2312_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-tension-arterielle]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Problèmes cardiaques – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8232</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8232</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8232</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-32]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>32</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Problèmes cardiaques]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:46]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658753ab46012_Projet_12-2311_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-tension-arterielle]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Colopathie – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8233</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8233</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8233</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-33]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>33</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Colopathie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:41]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/6587542d32093_Colopathie__SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-colopathie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Anémie – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8234</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8234</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8234</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-34]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>34</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Anémie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:10]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658754b41a1a6_Projet_12-2314_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-anemie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Anémie – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8235</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8235</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8235</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-35]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>35</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Anémie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:51]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658754f217e95_Anemie_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-anemie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Perte de poids – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8236</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8236</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8236</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-36]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>36</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Perte de poids]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:15]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/6587554921227_poids__SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-perte-de-poids]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Perte de poids – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8237</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8237</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8237</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-37]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>37</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Perte de poids]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:26]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658755770edfa_poids_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-perte-de-poids]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Perte de poids – témoignage 3]]></title>
+    <link>https://admin.vestigecmr.com/?p=8238</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8238</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8238</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-38]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>38</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Perte de poids]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:39]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658758bf197bd_Projet_12-2334_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-perte-de-poids]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kyste et fibrome – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8239</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8239</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8239</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-39]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>39</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Kyste et fibrome]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:23]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/6587590f37074_Projet_12-2318_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-kyste-fibrome-et-myome]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kyste et fibrome – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8240</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8240</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8240</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-40]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>40</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Kyste et fibrome]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[0:13]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/67e06d4945ca3_Projet_03-236_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-kyste-fibrome-et-myome]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Infertilité – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8241</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8241</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8241</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-41]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>41</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Infertilité]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:01]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875955055d9_Infertilit__SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Infertilité – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8242</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8242</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8242</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-42]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>42</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Infertilité]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:41]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/67e06abed6d80_Projet_03-238_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/kits-traitement]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Goutte – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8243</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8243</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8243</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-43]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>43</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Goutte]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[0:19]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658759b431efa_Projet_12-2320_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-goutte-et-acide-urique]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Plaie – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8244</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8244</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8244</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-44]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>44</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Plaie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:15]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875a300522c_Plaie__SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-plaie]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Yeux – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8245</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8245</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8245</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-45]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>45</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Yeux]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[0:54]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875a9a30b8b_Projet_12-2322_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-yeux]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Hémorroïdes – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8246</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8246</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8246</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-46]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>46</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Hémorroïdes]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:26]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875acd7e814_Projet_12-2323_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-hemorroides]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Hémorroïdes – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8247</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8247</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8247</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-47]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>47</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Hémorroïdes]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:15]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/67466416aaca2_hemorpide_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-hemorroides]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Asthme – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8248</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8248</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8248</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-48]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>48</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Asthme]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[0:25]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875b1ae9418_ASTME_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-asthme]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Asthme – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8249</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8249</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8249</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-49]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>49</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Asthme]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:31]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/66814ae19285d_Projet_06-307_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-asthme]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Ulcère – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8250</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8250</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8250</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-50]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>50</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Ulcère]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:48]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875b489bac9_Projet_12-2325_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-ulcere]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Ulcère – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8251</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8251</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8251</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-51]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>51</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Ulcère]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[0:57]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/66757c93c559f_VID-20240609-WA0049.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-ulcere]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Ulcère – témoignage 3]]></title>
+    <link>https://admin.vestigecmr.com/?p=8252</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8252</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8252</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-52]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>52</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Ulcère]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:37]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/67e02f27e0574_Projet_03-231_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-ulcere]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Hernie discale – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8253</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8253</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8253</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-53]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>53</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Hernie discale]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:53]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875bb6b74ad_discale_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-hernie-discale]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Hernie discale – témoignage 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=8254</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8254</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8254</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-54]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>54</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Hernie discale]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[3:52]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/67e06ef55d486_Projet_03-237_HD720p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-hernie-discale]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Embolie pulmonaire – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8255</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8255</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8255</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-55]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>55</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Embolie pulmonaire]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[2:49]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/66814cc7bb569_Projet_06-02_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/kit-infection-pulmonaire]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir le kit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Vergetures – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8256</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8256</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8256</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-56]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>56</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Vergetures]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[0:57]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875cb0da420_Projet_12-2327_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/c/soins-visage-corps]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Dentifrice Ganoderma – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8257</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8257</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8257</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-57]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>57</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Dentifrice Ganoderma]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[23:48]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65875cf7d5d79_dent_assure_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/vestige-dentifrice-au-ganoderma]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Savon Assure – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8258</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8258</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8258</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-58]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>58</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Savon Assure]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:45]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/65876006edef4_Projet_12-2330_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/vestige-savon-assure]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Ultra Guard – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8259</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8259</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8259</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-59]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>59</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Ultra Guard]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[5:34]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/6587605b1d66b_guard_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/vestige-nettoyant-wc-hyvest-ultra-guard]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Ultra Wash – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8260</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8260</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8260</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-60]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>60</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Ultra Wash]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[7:51]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658765ac63712_wash_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/vestige-lessive-liquide-ultra-wash]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Ultra Scrub – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8261</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8261</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8261</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-61]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>61</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Ultra Scrub]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[1:15]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/66814b73f32c9_Projet_06-304_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/vestige-liquide-vaisselle-hyvest-ultra-scrub]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Crème hydratante – témoignage 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=8262</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=8262</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>8262</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[temoignage-62]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>62</wp:menu_order>
+    <wp:post_type><![CDATA[temoignage]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta><wp:meta_key>topic</wp:meta_key><wp:meta_value><![CDATA[Crème hydratante]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_topic</wp:meta_key><wp:meta_value><![CDATA[field_vv_topic]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>duration</wp:meta_key><wp:meta_value><![CDATA[4:07]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_duration</wp:meta_key><wp:meta_value><![CDATA[field_vv_duration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_file</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_file</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_file]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>video_url</wp:meta_key><wp:meta_value><![CDATA[https://d1yei2z3i6k35z.cloudfront.net/3181935/658766d0ad57b_Projet_12-2333_SD360p_MEDIUM_FR30.mp4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_video_url</wp:meta_key><wp:meta_value><![CDATA[field_vv_video_url]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>poster</wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_poster</wp:meta_key><wp:meta_value><![CDATA[field_vv_poster]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link</wp:meta_key><wp:meta_value><![CDATA[/p/vestige-creme-hydratante-quotidienne]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link</wp:meta_key><wp:meta_value><![CDATA[field_vv_link]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>link_label</wp:meta_key><wp:meta_value><![CDATA[Voir]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_link_label</wp:meta_key><wp:meta_value><![CDATA[field_vv_link_label]]></wp:meta_value></wp:postmeta>
+  </item>
+</channel>
+</rss>
