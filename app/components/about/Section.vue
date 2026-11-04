@@ -8,12 +8,8 @@ const expanded = ref(false)
 const contentId = useId()
 const heading = useTemplateRef<HTMLElement>('heading')
 
-// « Nom · Adresse » sur deux lignes ; numéro WhatsApp → lien de conversation
+// « Nom · Adresse » sur deux lignes ; le numéro WhatsApp vient de utils/contact.ts (même numéro partout)
 const addressLines = computed(() => props.address.split('·').map(line => line.trim()).filter(Boolean))
-const whatsappLink = computed(() => {
-  const digits = props.whatsapp.replace(/\D/g, '')
-  return `https://wa.me/${digits.startsWith('237') ? digits : `237${digits}`}`
-})
 
 function toggle() {
   expanded.value = !expanded.value
@@ -39,7 +35,7 @@ function toggle() {
           v-html="html"
         />
 
-        <address v-if="addressLines.length || whatsapp" class="space-y-1.5 rounded-xl bg-panel p-4 not-italic">
+        <address class="space-y-1.5 rounded-xl bg-panel p-4 not-italic">
           <p v-if="addressLines[0]" class="flex items-center gap-2 font-bold text-ink">
             <UIcon name="i-lucide-map-pin" class="size-5 text-leaf" />
             {{ addressLines[0] }}
@@ -51,10 +47,10 @@ function toggle() {
               <UIcon name="i-lucide-external-link" class="size-4" />
             </NuxtLink>
           </p>
-          <p v-if="whatsapp" class="flex items-center gap-2">
+          <p class="flex items-center gap-2">
             <UIcon name="i-simple-icons-whatsapp" class="size-5 text-leaf" />
-            <NuxtLink :to="whatsappLink" target="_blank" class="font-semibold text-leaf hover:underline">
-              WhatsApp : {{ whatsapp }}
+            <NuxtLink :to="contact.whatsappUrl" target="_blank" class="font-semibold text-leaf hover:underline">
+              WhatsApp : {{ contact.whatsapp }}
             </NuxtLink>
           </p>
         </address>

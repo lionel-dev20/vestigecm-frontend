@@ -1,10 +1,8 @@
 <script setup lang="ts">
-const { whatsappUrl } = useRuntimeConfig().public
-
 // WhatsApp : même lien que la bannière de contact
 const links = computed(() => [
   ...socialLinks,
-  { label: 'WhatsApp', to: whatsappUrl, icon: 'i-simple-icons-whatsapp' },
+  { label: 'WhatsApp', to: whatsappLink(contact.whatsappMessage), icon: 'i-simple-icons-whatsapp' },
 ])
 </script>
 

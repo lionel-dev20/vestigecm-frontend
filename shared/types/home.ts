@@ -40,5 +40,5 @@ export interface HomeContent {
   dealCards: HomeDealCard[]
   cta: { eyebrow: string; title: string; highlight: string; text: string; cta: string; to: string; image: string }
   // html : texte enrichi déjà nettoyé côté serveur
-  about: { title: string; html: string; address: string; whatsapp: string }
+  about: { title: string; html: string; address: string }
 }

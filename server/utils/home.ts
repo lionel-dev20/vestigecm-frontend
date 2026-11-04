@@ -87,7 +87,6 @@ const defaults: HomeContent = {
 <p>Parce que chaque personne est différente, nous ne voulons pas simplement vous proposer une solution au hasard. Nous privilégions une démarche qui commence par l'écoute et l'évaluation, puis qui permet d'orienter l'accompagnement en fonction des besoins identifiés.</p>
 <p><strong>Prenez soin de votre santé. Commencez par mieux comprendre votre organisme.</strong></p>`,
     address: 'VESTIGE CAMEROUN – DOUALA LOGBABA · Logbaba 2 poteaux, sur la route de Ndogpassi 2',
-    whatsapp: '699 288 607',
   },
 }
 
@@ -196,7 +195,6 @@ function toHome(acf: Fields): HomeContent {
       title: text(about.title, d.about.title),
       html: sanitizeHtml(text(about.content, d.about.html)),
       address: text(about.address, d.about.address),
-      whatsapp: text(about.whatsapp, d.about.whatsapp),
     },
   }
 }

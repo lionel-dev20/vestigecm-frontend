@@ -47,11 +47,6 @@ export default defineNuxtConfig({
       consumerKey: '',
       consumerSecret: '',
     },
-
-    public: {
-      // Conversation WhatsApp de la boutique (NUXT_PUBLIC_WHATSAPP_URL)
-      whatsappUrl: 'https://wa.me/237699288607',
-    },
   },
 
   app: {
