@@ -85,3 +85,22 @@ export const bilanDetails = {
     'Lipides sanguins',
   ],
 }
+
+// Détoxification ionique : présentation et photos (section « Nos thérapies » de la page)
+// fit « contain » : schéma affiché en entier ; « cover » : photo recadrée (visages floutés), position : partie gardée
+export const detoxDetails = {
+  tagline: 'Offrez à votre corps un moment de détente et de bien-être.',
+  text: 'La détoxification ionique est proposée comme une séance de bien-être basée sur l\'utilisation d\'un bain de pieds ionique, le but étant de vous aider à éliminer naturellement les déchets accumulés dans le corps.',
+  benefits: [
+    'Un moment de relaxation',
+    'Une sensation de légèreté et de confort',
+    'Une expérience de bien-être agréable',
+    'La possibilité d\'intégrer une séance à une démarche globale d\'hygiène de vie',
+  ],
+  images: [
+    { src: '/images/therapies/bain-de-pieds-ionique.jpg', alt: 'Séance de bain de pieds ionique', width: 810, height: 1080, fit: 'cover' },
+    { src: '/images/therapies/seance-pieds.jpg', alt: 'Séance de bien-être des pieds au centre VESTIGE', width: 1080, height: 810, fit: 'cover', position: 'bottom' },
+    { src: '/images/therapies/reflexologie-zones.jpg', alt: 'Schéma des zones réflexes du pied : yeux, cœur, reins, intestins…', width: 1080, height: 1160, fit: 'contain' },
+    { src: '/images/therapies/reflexologie-points.jpg', alt: 'Schéma des 35 points de réflexologie plantaire', width: 805, height: 1080, fit: 'contain' },
+  ],
+}

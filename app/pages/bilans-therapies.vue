@@ -11,6 +11,7 @@ const steps = ['Évaluer', 'Comprendre', 'Personnaliser', 'Accompagner']
 // Prestations détaillées dans « Les différents bilans » (même texte pour les deux)
 const bilans = services.filter(service => service.id === 'quantum' || service.id === 'bioplasme')
 const isBilan = (id: string) => bilans.some(bilan => bilan.id === id)
+const detox = services.find(service => service.id === 'detoxification')!
 </script>
 
 <template>
@@ -41,6 +42,9 @@ const isBilan = (id: string) => bilans.some(bilan => bilan.id === id)
         <p class="mt-2 flex-1 leading-relaxed text-[#555]">{{ service.text }}</p>
         <NuxtLink v-if="isBilan(service.id)" :to="`#analyses-${service.id}`" class="mt-3 w-fit text-sm font-semibold text-link hover:underline">
           Voir les {{ bilanDetails.analyses.length }} analyses du bilan
+        </NuxtLink>
+        <NuxtLink v-else-if="service.id === detox.id" :to="`#details-${detox.id}`" class="mt-3 w-fit text-sm font-semibold text-link hover:underline">
+          En savoir plus sur la séance
         </NuxtLink>
         <NuxtLink
           :to="booking(service.title)"
@@ -86,6 +90,57 @@ const isBilan = (id: string) => bilans.some(bilan => bilan.id === id)
         >
           <UIcon name="i-simple-icons-whatsapp" class="size-5" />
           Prendre rendez-vous pour un bilan
+        </NuxtLink>
+      </div>
+    </section>
+
+    <!-- Nos thérapies : détail de la détoxification ionique -->
+    <section aria-labelledby="therapies-title" class="mt-12 lg:mt-16">
+      <h2 id="therapies-title" class="text-center text-2xl font-bold text-[#222] lg:text-3xl">Nos thérapies</h2>
+
+      <div :id="`details-${detox.id}`" class="mt-8 scroll-mt-32 rounded-2xl border border-ink/10 bg-white p-6 lg:p-10">
+        <h3 class="flex items-center gap-3 text-xl font-bold text-ink">
+          <UIcon :name="detox.icon" class="size-6 text-leaf" />
+          {{ detox.title }}
+        </h3>
+        <p class="mt-4 text-lg font-semibold text-[#222]">{{ detoxDetails.tagline }}</p>
+        <p class="mt-2 max-w-3xl leading-relaxed text-[#444]">{{ detoxDetails.text }}</p>
+
+        <h4 class="mt-6 flex items-center gap-2 font-bold text-[#222]">
+          <UIcon name="i-lucide-leaf" class="size-5 text-leaf" />
+          Pourquoi choisir cette séance ?
+        </h4>
+        <ul class="mt-3 grid gap-2.5 sm:grid-cols-2">
+          <li v-for="benefit in detoxDetails.benefits" :key="benefit" class="flex items-start gap-2 text-[#333]">
+            <UIcon name="i-lucide-check" class="mt-0.5 size-5 shrink-0 text-leaf" />
+            {{ benefit }}
+          </li>
+        </ul>
+
+        <!-- Photos (visages floutés) et schémas de réflexologie : 2 colonnes sur mobile et tablette, 4 sur ordinateur -->
+        <ul class="mt-8 grid grid-cols-2 gap-4 lg:grid-cols-4">
+          <li v-for="image in detoxDetails.images" :key="image.src" class="aspect-4/5 overflow-hidden rounded-xl bg-panel">
+            <NuxtImg
+              :src="image.src"
+              :alt="image.alt"
+              :width="image.width"
+              :height="image.height"
+              sizes="50vw lg:320px"
+              format="webp"
+              loading="lazy"
+              class="size-full"
+              :class="[image.fit === 'contain' ? 'object-contain p-2' : 'object-cover', 'position' in image && image.position === 'bottom' && 'object-bottom']"
+            />
+          </li>
+        </ul>
+
+        <NuxtLink
+          :to="booking(detox.title)"
+          target="_blank"
+          class="mt-8 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 font-bold text-white hover:bg-ink/90"
+        >
+          <UIcon name="i-simple-icons-whatsapp" class="size-5" />
+          Réserver une séance
         </NuxtLink>
       </div>
     </section>
