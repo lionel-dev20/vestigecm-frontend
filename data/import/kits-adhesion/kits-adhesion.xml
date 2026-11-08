@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- VESTIGE – Kits d'adhésion. Outils > Importer > WordPress (les images se relient ensuite avec images-produits-une-fois.php) -->
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+  <title>VESTIGE Cameroun</title>
+  <link>https://admin.vestigecmr.com</link>
+  <language>fr-FR</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://admin.vestigecmr.com</wp:base_site_url>
+  <wp:base_blog_url>https://admin.vestigecmr.com</wp:base_blog_url>
+  <wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name></wp:author>
+  <wp:term><wp:term_id>1310</wp:term_id><wp:term_taxonomy>product_cat</wp:term_taxonomy><wp:term_slug><![CDATA[kits-adhesion]]></wp:term_slug><wp:term_parent><![CDATA[]]></wp:term_parent><wp:term_name><![CDATA[Kits d'adhésion]]></wp:term_name><wp:term_description><![CDATA[Démarrez votre activité de distributeur VESTIGE avec un kit de produits.]]></wp:term_description></wp:term>
+  <wp:term><wp:term_id>1301</wp:term_id><wp:term_taxonomy>product_type</wp:term_taxonomy><wp:term_slug><![CDATA[simple]]></wp:term_slug><wp:term_parent><![CDATA[]]></wp:term_parent><wp:term_name><![CDATA[simple]]></wp:term_name></wp:term>
+  <item>
+    <title><![CDATA[Kit d'adhésion A]]></title>
+    <link>https://admin.vestigecmr.com/?p=9301</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9301</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion A VESTIGE : 6 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Calcium</li><li>2 × Pâte dentifrice Gano Assure</li><li>1 × Savon Assure</li><li>2 × Savon Complexion Bar</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 30 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>30 PV · 6 produits : Calcium, Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar.</p>]]></excerpt:encoded>
+    <wp:post_id>9301</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-a]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-A]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[30]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kit d'adhésion B]]></title>
+    <link>https://admin.vestigecmr.com/?p=9302</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9302</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion B VESTIGE : 5 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Amla</li><li>2 × Pâte dentifrice Gano Assure</li><li>1 × Savon Assure</li><li>1 × Savon Complexion Bar</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 30 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>30 PV · 5 produits : Amla, Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar.</p>]]></excerpt:encoded>
+    <wp:post_id>9302</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-b]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>2</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-B]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[30]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kit d'adhésion C]]></title>
+    <link>https://admin.vestigecmr.com/?p=9303</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9303</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion C VESTIGE : 6 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Crème hydratante quotidienne Assure (Daily Moisturiser)</li><li>1 × Crème de nuit anti-âge Assure</li><li>1 × Pâte dentifrice Gano Assure</li><li>1 × Savon Assure</li><li>2 × Savon Complexion Bar</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 30 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>30 PV · 6 produits : Crème hydratante quotidienne Assure (Daily Moisturiser), Crème de nuit anti-âge Assure, Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar.</p>]]></excerpt:encoded>
+    <wp:post_id>9303</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-c]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>3</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-C]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[30]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kit d'adhésion D]]></title>
+    <link>https://admin.vestigecmr.com/?p=9304</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9304</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion D VESTIGE : 6 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Flax Oil (huile de lin)</li><li>2 × Pâte dentifrice Gano Assure</li><li>1 × Savon Assure</li><li>2 × Savon Complexion Bar</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 30 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>30 PV · 6 produits : Flax Oil (huile de lin), Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar.</p>]]></excerpt:encoded>
+    <wp:post_id>9304</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-d]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>4</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-D]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[30]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kit d'adhésion E]]></title>
+    <link>https://admin.vestigecmr.com/?p=9305</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9305</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion E VESTIGE : 5 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Calcium</li><li>1 × Folic Acid &amp; Iron Plus</li><li>1 × Pâte dentifrice Gano Assure</li><li>1 × Savon Assure</li><li>1 × Savon Complexion Bar</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 30 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>30 PV · 5 produits : Calcium, Folic Acid &amp; Iron Plus, Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar.</p>]]></excerpt:encoded>
+    <wp:post_id>9305</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-e]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>5</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-E]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[30]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kit d'adhésion F]]></title>
+    <link>https://admin.vestigecmr.com/?p=9306</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9306</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion F VESTIGE : 5 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Calcium</li><li>1 × Folic Acid &amp; Iron Plus</li><li>1 × Pâte dentifrice Gano Assure</li><li>1 × Savon Assure</li><li>1 × Savon Complexion Bar</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 30 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>30 PV · 5 produits : Calcium, Folic Acid &amp; Iron Plus, Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar.</p>]]></excerpt:encoded>
+    <wp:post_id>9306</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-f]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>6</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-F]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[25000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[30]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kit d'adhésion 1]]></title>
+    <link>https://admin.vestigecmr.com/?p=9307</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9307</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion 1 VESTIGE : 8 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Flax Oil (huile de lin)</li><li>1 × Calcium</li><li>1 × Folic Acid &amp; Iron Plus</li><li>2 × Pâte dentifrice Gano Assure</li><li>1 × Savon Assure</li><li>1 × Savon Complexion Bar</li><li>1 × Nettoyant visage clarifiant Assure</li><li>1 × Catalogue des produits VESTIGE</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 100 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>100 PV · 8 produits : Flax Oil (huile de lin), Calcium, Folic Acid &amp; Iron Plus, Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar, Nettoyant visage clarifiant Assure.</p>]]></excerpt:encoded>
+    <wp:post_id>9307</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-1]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>7</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-1]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[55000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[55000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[100]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kit d'adhésion 2]]></title>
+    <link>https://admin.vestigecmr.com/?p=9308</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9308</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion 2 VESTIGE : 8 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Amla</li><li>1 × Calcium</li><li>1 × Spiruline</li><li>1 × Pâte dentifrice Gano Assure</li><li>2 × Savon Assure</li><li>1 × Savon Complexion Bar</li><li>1 × Crème de nuit anti-âge Assure</li><li>1 × Catalogue des produits VESTIGE</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 100 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>100 PV · 8 produits : Amla, Calcium, Spiruline, Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar, Crème de nuit anti-âge Assure.</p>]]></excerpt:encoded>
+    <wp:post_id>9308</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-2]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>8</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-2]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[55000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[55000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[100]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kit d'adhésion 3]]></title>
+    <link>https://admin.vestigecmr.com/?p=9309</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9309</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion 3 VESTIGE : 7 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Ganoderma</li><li>1 × Calcium</li><li>1 × Crème hydratante quotidienne Assure (Daily Moisturiser)</li><li>1 × Pâte dentifrice Gano Assure</li><li>1 × Savon Assure</li><li>1 × Savon Complexion Bar</li><li>1 × Crème de nuit anti-âge Assure</li><li>1 × Catalogue des produits VESTIGE</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 100 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>100 PV · 7 produits : Ganoderma, Calcium, Crème hydratante quotidienne Assure (Daily Moisturiser), Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar, Crème de nuit anti-âge Assure.</p>]]></excerpt:encoded>
+    <wp:post_id>9309</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-3]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>9</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-3]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[55000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[55000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[100]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Kit d'adhésion 4]]></title>
+    <link>https://admin.vestigecmr.com/?p=9310</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9310</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Kit d'adhésion 4 VESTIGE : 10 produits pour démarrer votre activité de distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Crème hydratante quotidienne Assure (Daily Moisturiser)</li><li>1 × Neem</li><li>1 × Folic Acid &amp; Iron Plus</li><li>1 × Nettoyant visage clarifiant Assure</li><li>2 × Pâte dentifrice Gano Assure</li><li>1 × Savon Assure</li><li>2 × Savon Complexion Bar</li><li>1 × Crème de nuit anti-âge Assure</li><li>1 × Catalogue des produits VESTIGE</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 100 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>100 PV · 10 produits : Crème hydratante quotidienne Assure (Daily Moisturiser), Neem, Folic Acid &amp; Iron Plus, Nettoyant visage clarifiant Assure, Pâte dentifrice Gano Assure, Savon Assure, Savon Complexion Bar, Crème de nuit anti-âge Assure.</p>]]></excerpt:encoded>
+    <wp:post_id>9310</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[kit-adhesion-4]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>10</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-4]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[55000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[55000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[100]]></wp:meta_value></wp:postmeta>
+  </item>
+  <item>
+    <title><![CDATA[Pack Sénior Distributeur]]></title>
+    <link>https://admin.vestigecmr.com/?p=9311</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://admin.vestigecmr.com/?p=9311</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>Pack Sénior Distributeur VESTIGE : 10 produits pour démarrer votre activité de distributeur au niveau Sénior Distributeur, et découvrir la gamme en les utilisant vous-même.</p><h3>Composition du kit</h3><ul><li>1 × Veslim Shake</li><li>1 × Ganoderma</li><li>1 × Spiruline</li><li>1 × Flax Oil (huile de lin)</li><li>1 × Folic Acid &amp; Iron Plus</li><li>1 × Noni</li><li>1 × Neem</li><li>1 × Calcium</li><li>1 × Krill Oil</li><li>1 × Amla</li><li>1 × Catalogue des produits VESTIGE</li></ul><h3>Points valeur</h3><p>Ce kit vous rapporte 300 PV.</p><h3>Comment adhérer</h3><p>Commandez le kit, puis notre équipe vous contacte sur WhatsApp pour finaliser votre inscription comme distributeur VESTIGE.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[<p>300 PV · 10 produits : Veslim Shake, Ganoderma, Spiruline, Flax Oil (huile de lin), Folic Acid &amp; Iron Plus, Noni, Neem, Calcium, Krill Oil, Amla.</p>]]></excerpt:encoded>
+    <wp:post_id>9311</wp:post_id>
+    <wp:post_date><![CDATA[2026-11-08 09:00:00]]></wp:post_date>
+    <wp:post_date_gmt><![CDATA[2026-11-08 09:00:00]]></wp:post_date_gmt>
+    <wp:comment_status><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name><![CDATA[pack-senior-distributeur]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>11</wp:menu_order>
+    <wp:post_type><![CDATA[product]]></wp:post_type>
+    <wp:post_password><![CDATA[]]></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <category domain="product_cat" nicename="kits-adhesion"><![CDATA[Kits d'adhésion]]></category>
+    <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+    <wp:postmeta><wp:meta_key>_sku</wp:meta_key><wp:meta_value><![CDATA[ADH-PACK-SENIOR-DISTRIBUTEUR]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_regular_price</wp:meta_key><wp:meta_value><![CDATA[145000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_price</wp:meta_key><wp:meta_value><![CDATA[145000]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_stock_status</wp:meta_key><wp:meta_value><![CDATA[instock]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_manage_stock</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_virtual</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_downloadable</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_tax_status</wp:meta_key><wp:meta_value><![CDATA[taxable]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_sold_individually</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_backorders</wp:meta_key><wp:meta_value><![CDATA[no]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>total_sales</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_average_rating</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wc_review_count</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_vestige_pv</wp:meta_key><wp:meta_value><![CDATA[300]]></wp:meta_value></wp:postmeta>
+  </item>
+</channel>
+</rss>

@@ -20,6 +20,7 @@ const categoryDefs: CategoryDef[] = [
 // Sous-catégories des univers du header (mêmes slugs que les catégories WooCommerce importées)
 const subcategories: [string, string, () => Product[]][] = [
   ['produits-ayurvediques', 'Produits ayurvédiques', () => healthProducts],
+  ['kits-adhesion', 'Kits d\'adhésion', () => healthProducts],
   ['minceur', 'Minceur', () => healthProducts],
   ['soins-visage-corps', 'Soins du visage et du corps', () => dealProducts],
   ['hygiene-bucco-dentaire', 'Hygiène bucco-dentaire', () => dealProducts],

@@ -46,6 +46,21 @@ const steps = ['Évaluer', 'Comprendre', 'Personnaliser', 'Accompagner']
       </li>
     </ul>
 
+    <!-- Kits d'adhésion : pour devenir distributeur -->
+    <NuxtLink
+      to="/c/kits-adhesion"
+      class="mt-6 flex flex-col gap-4 rounded-2xl bg-ink p-6 text-white transition-colors duration-150 hover:bg-ink/90 sm:flex-row sm:items-center sm:justify-between lg:p-8"
+    >
+      <span>
+        <span class="block text-xl font-bold">Devenez distributeur VESTIGE</span>
+        <span class="mt-1 block text-white/85">Démarrez avec un kit d'adhésion, dès 25 000 FCFA.</span>
+      </span>
+      <span class="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-white px-5 py-2.5 font-bold text-ink">
+        Voir les kits d'adhésion
+        <UIcon name="i-lucide-arrow-right" class="size-4" />
+      </span>
+    </NuxtLink>
+
     <NuxtLink
       :to="contact.mapUrl"
       target="_blank"

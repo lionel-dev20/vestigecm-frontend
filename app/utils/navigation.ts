@@ -25,7 +25,11 @@ export const sectionTabs: NavLink[] = [
   {
     label: 'Bilans et thérapies',
     to: '/bilans-therapies',
-    children: services.map(service => ({ label: service.label, to: `/bilans-therapies#${service.id}` })),
+    // Les 4 prestations (ancres de la page), puis les kits d'adhésion (catégorie WooCommerce)
+    children: [
+      ...services.map(service => ({ label: service.label, to: `/bilans-therapies#${service.id}` })),
+      { label: 'Kits d\'adhésion', to: '/c/kits-adhesion' },
+    ],
   },
   {
     label: 'Agriculture',
