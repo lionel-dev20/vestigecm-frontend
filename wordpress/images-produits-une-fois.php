@@ -13,7 +13,7 @@ if (!defined('ABSPATH')) {
 }
 
 add_action('admin_init', function () {
-    if (!current_user_can('manage_woocommerce') || get_transient('vestige_product_images_v3')) {
+    if (!current_user_can('manage_woocommerce') || get_transient('vestige_product_images_v4')) {
         return;
     }
 
@@ -37,11 +37,17 @@ add_action('admin_init', function () {
     $kits = get_posts([
         'post_type'      => 'product',
         'posts_per_page' => -1,
+        // « future » : produits importés avec une date à venir (statut « Planifié »)
+        'post_status'    => ['publish', 'future'],
         'tax_query'      => [['taxonomy' => 'product_cat', 'field' => 'slug', 'terms' => ['kits-traitement', 'kits-adhesion']]],
     ]);
     $linked = 0;
     $missing = [];
     foreach ($kits as $kit) {
+        // Planifié → publié tout de suite, sinon le produit reste invisible sur le site
+        if ($kit->post_status === 'future') {
+            wp_publish_post($kit->ID);
+        }
         // Image valide déjà en place : on n'y touche pas (l'import XML a laissé des références vers des images inexistantes)
         if (wp_get_attachment_image_src((int) get_post_thumbnail_id($kit))) {
             continue;
@@ -55,11 +61,11 @@ add_action('admin_init', function () {
         }
     }
 
-    set_transient('vestige_product_images_v3', compact('linked', 'missing'), DAY_IN_SECONDS);
+    set_transient('vestige_product_images_v4', compact('linked', 'missing'), DAY_IN_SECONDS);
 });
 
 add_action('admin_notices', function () {
-    $result = get_transient('vestige_product_images_v3');
+    $result = get_transient('vestige_product_images_v4');
     if (!$result) {
         return;
     }

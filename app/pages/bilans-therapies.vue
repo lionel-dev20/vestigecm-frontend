@@ -35,6 +35,9 @@ const steps = ['Évaluer', 'Comprendre', 'Personnaliser', 'Accompagner']
         </span>
         <h2 class="mt-4 text-xl font-bold text-[#222]">{{ service.title }}</h2>
         <p class="mt-2 flex-1 leading-relaxed text-[#555]">{{ service.text }}</p>
+        <NuxtLink v-if="service.id === 'quantum'" to="#analyses-quantum" class="mt-3 w-fit text-sm font-semibold text-link hover:underline">
+          Voir les {{ quantumBilan.analyses.length }} analyses du bilan
+        </NuxtLink>
         <NuxtLink
           :to="booking(service.title)"
           target="_blank"
@@ -45,6 +48,38 @@ const steps = ['Évaluer', 'Comprendre', 'Personnaliser', 'Accompagner']
         </NuxtLink>
       </li>
     </ul>
+
+    <!-- Les différents bilans : détail du Quantum -->
+    <section id="analyses-quantum" aria-labelledby="bilans-title" class="mt-12 scroll-mt-32 lg:mt-16">
+      <h2 id="bilans-title" class="text-center text-2xl font-bold text-[#222] lg:text-3xl">Les différents bilans</h2>
+
+      <div class="mt-8 rounded-2xl border border-ink/10 bg-white p-6 lg:p-10">
+        <h3 class="flex items-center gap-3 text-xl font-bold text-ink">
+          <UIcon name="i-lucide-activity" class="size-6 text-leaf" />
+          Le Quantum
+        </h3>
+        <div class="mt-4 max-w-3xl space-y-3 leading-relaxed text-[#444]">
+          <p v-for="paragraph in quantumBilan.intro" :key="paragraph">{{ paragraph }}</p>
+        </div>
+
+        <!-- 1 colonne sur mobile, 2 sur tablette, 3 sur ordinateur -->
+        <ol class="mt-6 grid gap-x-8 gap-y-2.5 sm:grid-cols-2 lg:grid-cols-3">
+          <li v-for="(analysis, index) in quantumBilan.analyses" :key="analysis" class="flex items-baseline gap-3 text-[#333]">
+            <span class="w-6 shrink-0 text-right text-sm font-bold tabular-nums text-leaf">{{ String(index + 1).padStart(2, '0') }}</span>
+            {{ analysis }}
+          </li>
+        </ol>
+
+        <NuxtLink
+          :to="booking('Bilan Quantum')"
+          target="_blank"
+          class="mt-8 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 font-bold text-white hover:bg-ink/90"
+        >
+          <UIcon name="i-simple-icons-whatsapp" class="size-5" />
+          Prendre rendez-vous pour un bilan
+        </NuxtLink>
+      </div>
+    </section>
 
     <!-- Kits d'adhésion : pour devenir distributeur -->
     <NuxtLink
