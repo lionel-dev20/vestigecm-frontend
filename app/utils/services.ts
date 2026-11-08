@@ -38,8 +38,8 @@ export const services: Service[] = [
   },
 ]
 
-// Bilan Quantum : présentation et systèmes analysés (section « Les différents bilans » de la page)
-export const quantumBilan = {
+// Bilans Quantum et Bioplasme : même présentation et mêmes systèmes analysés (section « Les différents bilans »)
+export const bilanDetails = {
   intro: [
     'Un bilan de santé au Quantum ou au Bioplasme vous permet de faire un point complet sur votre état de santé général.',
     'Le bilan permet parfois de détecter un problème de santé, qui se soignera plus rapidement que si vous aviez attendu d\'en ressentir les premiers symptômes.',
