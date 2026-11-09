@@ -1,6 +1,6 @@
-import type { CareerPage, Testimonial, TestimonialsPage } from '#shared/types/pages'
+import type { Testimonial, TestimonialsPage } from '#shared/types/pages'
 
-// Pages Témoignages et Carrière : WordPress (ACF) avec repli champ par champ sur le contenu actuel
+// Page Témoignages : WordPress (ACF) avec repli champ par champ sur le contenu actuel
 // Import : data/import/acf/groupes-champs-temoignages-carriere.json + pages-temoignages-carriere.xml
 const { group, text, image } = acf
 
@@ -13,18 +13,6 @@ const testimonialsDefaults: Omit<TestimonialsPage, 'items'> = {
     label: 'Partager mon témoignage',
     message: 'Bonjour, je souhaite partager mon témoignage sur les produits VESTIGE.',
   },
-}
-
-const careerDefaults: CareerPage = {
-  banner: '',
-  title: 'Devenez distributeur VESTIGE',
-  intro: 'Vous souhaitez développer une activité autour de la santé naturelle ? Rejoignez le réseau VESTIGE Cameroun.',
-  steps: [
-    { icon: 'i-lucide-message-circle', title: 'Prenez contact', text: 'Échangez avec notre équipe à Douala sur WhatsApp.' },
-    { icon: 'i-lucide-graduation-cap', title: 'Formez-vous', text: 'Découvrez les produits, les kits et les conseils d\'utilisation.' },
-    { icon: 'i-lucide-handshake', title: 'Accompagnez vos clients', text: 'Partagez les produits VESTIGE autour de vous, avec notre soutien.' },
-  ],
-  cta: { label: 'Nous contacter', message: 'Bonjour, je souhaite devenir distributeur VESTIGE.' },
 }
 
 // Champs ACF d'une page (par son slug), gardés 1 min ; une erreur n'est jamais mise en cache
@@ -92,22 +80,5 @@ export async function getTestimonialsPage(): Promise<TestimonialsPage> {
     },
     // Aucun témoignage dans WordPress (pas encore importés) : les vidéos actuelles
     items: items.length ? items : defaultTestimonials,
-  }
-}
-
-export async function getCareerPage(): Promise<CareerPage> {
-  const fields = await safely(() => fetchPageFields('carriere'), {})
-  const d = careerDefaults
-  const cta = group(fields.cta)
-
-  return {
-    banner: image(fields.banner, d.banner),
-    title: text(fields.title, d.title),
-    intro: text(fields.intro, d.intro),
-    steps: d.steps.map((fallback, index) => {
-      const step = group(fields[`step_${index + 1}`])
-      return { icon: text(step.icon, fallback.icon), title: text(step.title, fallback.title), text: text(step.text, fallback.text) }
-    }),
-    cta: { label: text(cta.button_label, d.cta.label), message: text(cta.message, d.cta.message) },
   }
 }

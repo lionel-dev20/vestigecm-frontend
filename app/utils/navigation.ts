@@ -36,15 +36,8 @@ export const sectionTabs: NavLink[] = [
     ],
   },
   { label: 'Témoignages', to: '/temoignages' },
-  // Carrière : devenir distributeur, avec les kits d'adhésion
-  {
-    label: 'Carrière',
-    to: '/carriere',
-    children: [
-      { label: 'Devenir distributeur', to: '/carriere' },
-      { label: 'Kits d\'adhésion', to: '/c/kits-adhesion' },
-    ],
-  },
+  // Carrière : les kits d'adhésion, directement (pas de sous-menu)
+  { label: 'Carrière', to: '/carriere' },
 ]
 
 const within = (path: string, link: NavLink) => path === link.to || path.startsWith(`${link.to}/`)

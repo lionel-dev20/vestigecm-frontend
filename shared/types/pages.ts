@@ -1,4 +1,4 @@
-// Pages Témoignages et Carrière, gérées dans WordPress avec ACF
+// Page Témoignages, gérée dans WordPress avec ACF
 
 // Témoignage vidéo : une fiche « Témoignage » dans WordPress
 export interface Testimonial {
@@ -25,12 +25,4 @@ export interface TestimonialsPage {
   intro: string
   cta: WhatsAppCta
   items: Testimonial[]
-}
-
-export interface CareerPage {
-  banner: string
-  title: string
-  intro: string
-  steps: { icon: string; title: string; text: string }[]
-  cta: Pick<WhatsAppCta, 'label' | 'message'>
 }
