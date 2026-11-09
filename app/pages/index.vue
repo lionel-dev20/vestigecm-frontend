@@ -25,6 +25,11 @@ useHead(() => {
 
     <ContactWhatsAppBanner :title="home.whatsapp.title" :label="home.whatsapp.label" />
 
+    <!-- Bienvenue : catalogue complet et raccourcis vers les catégories -->
+    <HomeWelcomeCatalog />
+
+    <AyurvedaPicks />
+
     <QualityShowcase v-bind="home.quality" />
 
     <DealsSection v-bind="home.deals" />

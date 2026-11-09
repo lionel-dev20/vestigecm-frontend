@@ -75,7 +75,12 @@ async function wooListing(filters: ListingFilters, { category, q }: ListingSourc
   // Liens « Catégories » des filtres : catégories principales de la boutique
   const categories = (await shopCategories()).map(c => ({ label: c.name, to: c.to }))
 
-  if (category) {
+  // /c/produits : catalogue complet, toutes catégories confondues
+  if (category === 'produits') {
+    title = 'Tous nos produits'
+    description = 'L\'ensemble de nos produits naturels pour la santé, la beauté et l\'agriculture.'
+  }
+  else if (category) {
     const found = await wooCategoryBySlug(category.split('/').pop() ?? '')
     if (!found) throw createError({ statusCode: 404, statusMessage: 'Catégorie introuvable' })
     categoryId = found.id

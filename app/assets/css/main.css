@@ -29,6 +29,8 @@
   --color-gold: #c39a4f;
   --color-forest: #1f4d2b;
   --color-cream: #f3efe8;
+  /* Bloc « Bienvenue » de l'accueil (fond lavande, comme la référence) */
+  --color-lavender: #ece6f3;
 }
 
 /* Largeur d'un élément de carrousel : --cols éléments visibles, séparés par --gap */

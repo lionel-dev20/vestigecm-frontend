@@ -3,11 +3,12 @@ import type { Product } from '#shared/types/product'
 import type { WooProduct } from './woocommerce'
 
 // Sections produits de l'accueil : WooCommerce s'il est configuré, sinon le catalogue d'exemple
-// Bons plans = produits en promotion · Santé et Agriculture = catégories WooCommerce de même slug
+// Bons plans = produits en promotion · Santé, Agriculture, Ayurvéda = catégories WooCommerce de même slug
 const sections = {
   deals: { sample: () => dealProducts, woo: () => wooFetch<WooProduct[]>('/products', { query: { status: 'publish', on_sale: 'true', per_page: 12, _fields: wooProductFields } }).then(list => list.map(toProduct)) },
   health: { sample: () => healthProducts, woo: () => wooProductsInCategory('sante') },
   agri: { sample: () => agriProducts, woo: () => wooProductsInCategory('agriculture') },
+  ayurveda: { sample: () => healthProducts, woo: () => wooProductsInCategory('produits-ayurvediques') },
 }
 
 export function sectionProducts(section: keyof typeof sections): Promise<Product[]> | Product[] {
