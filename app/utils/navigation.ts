@@ -25,11 +25,7 @@ export const sectionTabs: NavLink[] = [
   {
     label: 'Bilans et thérapies',
     to: '/bilans-therapies',
-    // Les 4 prestations (ancres de la page), puis les kits d'adhésion (catégorie WooCommerce)
-    children: [
-      ...services.map(service => ({ label: service.label, to: `/bilans-therapies#${service.id}` })),
-      { label: 'Kits d\'adhésion', to: '/c/kits-adhesion' },
-    ],
+    children: services.map(service => ({ label: service.label, to: `/bilans-therapies#${service.id}` })),
   },
   {
     label: 'Agriculture',
@@ -40,7 +36,15 @@ export const sectionTabs: NavLink[] = [
     ],
   },
   { label: 'Témoignages', to: '/temoignages' },
-  { label: 'Carrière', to: '/carriere' },
+  // Carrière : devenir distributeur, avec les kits d'adhésion
+  {
+    label: 'Carrière',
+    to: '/carriere',
+    children: [
+      { label: 'Devenir distributeur', to: '/carriere' },
+      { label: 'Kits d\'adhésion', to: '/c/kits-adhesion' },
+    ],
+  },
 ]
 
 const within = (path: string, link: NavLink) => path === link.to || path.startsWith(`${link.to}/`)
